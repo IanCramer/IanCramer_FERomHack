@@ -1,0 +1,100 @@
+
+
+Things to learn:
+- Summoning
+	summon multiple, summon different, summoned items
+
+
+
+
+
+
+
+Patches (Order Matters!)
+- Anti-Huffman
+- Skill System
+	Might be called "Skill SkillSystem" or something like that. Get the most recent.
+
+
+
+
+
+- 1 HP in Arena (Don't die in arena)
+- Metis's Tome Growth Bonus
+- 3 Promotion Branch Options
+
+
+
+
+
+
+
+
+
+
+
+
+Graphics/Animations
+https://github.com/Klokinator/FE-Repo
+https://drive.google.com/drive/folders/1jiiTpNXgAlr4lZBh8d-nJFdO-Jus5VXV
+
+
+ROM Patching Tool
+https://www.marcrobledo.com/RomPatcher.js/
+
+
+
+
+
+
+Features to add to vanilla:
+
+1. Revistable Arenas
+	Place arenas in maps that generate skirmishes. Can also prevent arenas from becoming ruins by:
+		1. From the Advanced Editors menu select "Tile Changes" to access the tile changes editor
+		2. Select the map you'd like to edit (prevent aren from becoming ruins in)
+		3. In the list of tile changes, identify which tile change turns the arena to a ruin.
+		4. Drag said tile change to the bottom of the list.
+		5. Under the list of tile changes, click "Data Expansion"
+		6. Reduce the number of tile changes by 1. (note the data expansion screen will by default offer to increase the number of tile changes when we want to decrease it. Be sure to set the number of tile changes to allocate to 1 less than the number of existing tile changes.)
+
+2. Unbreakable legendary weapons and dragonstone
+
+3. Adjust stat boosts of dragonstone
+
+4. Create newer weaker, breakable version(s) of the dragonstone. i.e "Fire Stone". Set Myrrh to have a fire stone when she joins. Set Morva to drop the dragonstone.
+	Optional: Change the language in the game to reflect that Myrrh has a Fire Stone, not a Dragonstone.
+	
+	Creating a new dragonstone requires several steps so read carefully.
+	1. You will need the Battle Transforming Patch. Search "battle transform" in the patch tool to find it. There will be an installer and an editor. You will need to install it before you can use the editor so do that. We will come back here to use the editor.
+	2. Create the new dragonstone. 
+		Go to the item editor and find an unused item space (can allocate more if needed).
+			You need to start from scratch with a new item (not copy pasted from the original dragonstone) because we will need to allocate new stat boosts (if you copy paste from the original dragonstone the stat boost pointer will point to the same address as the original dragonstone and you will be unable to separate them to give each stone distinct stat boosts.
+		Set the name, icon, description, and use screen to whatever you like.
+		Set the item type to 0B=Dragonstone/Monster Weapon.
+		Set the Level to 0 (or it will be unequipable).
+		Give it whatever stats, price, additional damage type.
+		Set the WEXP Per Hit to 0.
+		HIT "WRITE TO ROM" !!!
+		Edit the Magic Animations (indirect effects) to be an attack (non attack animations will not trigger HP Loss). Make sure to hit "Write to Rom" in the magic animation editor window.
+		Click the "Stat Boost" button. IF YOU DO NOT GET A REQUEST TO ALLOCATE ROOM FOR A NEW STAT BOOST YOU DID SOMETHING WRONG!
+		Set the stat boosts to whatever you like from the stat boost editor window. Make sure to hit "Write to Rom" in the stat boost window
+		Make the item Equippable and set the item to have monster lock.
+		Hit "Write to Rom" and we're done!
+	3. Now that we have our new dragonstone we need to make sure our manakete classes can use it. Click on the "Battle Animations" button in the advanced editor to bring up the battle animations editor. In the uppersection find and select your manakete class(es). By default they should only have two elements: item and dragonstone, so we're going to need to expand this. Click the data expansion button and realloacte to include however many additional dragonstones you've made. Select the new slot at the bottom of the list. Set the weapon type to be your new dragonstone. Set the special to be 0=item specification. Clcik "Write to ROM".
+	4. BUT NOW THE TWIST! For any other type of weapon you'd be done, you have the weapon, you have the animation, what more do you need? Turns out the animation you set for your new dragonstone is actually for your manakete to just stand there, but that's not even the animation that will play when your manakete(s) equip the new dragonstone(s). So that's what we need to change and that's why we got the patch. Why do dragonstones require this extra stuff for the animation? Well reuglar attack animations consist of just an attack animation (which itself contains other stuff) but a dragonstone animation also contains, on top of everything a regular attack animation contains, a transform and a revert animation. So here's where we're going to set those. Go back to your patch editor and this time find the "battle trasforming editor". It should be usable since you installed the patch at the beginning. In the vanilla ROM the only manakete is myrrh, and the only dragonstone is her dragonstone. Since we just made a new dragonstone we need to set the animations for our manakete classes to use it. Expand the list if needed and select and unused manakete class. Make sure the class ID is the manakete class you want, and set the item ID to be your new dragonstone. If there are already animations (i.e. if you're only adding a new stone to a vanilla for myrrh, you can simply leave myrrh's animations alone) you don't have to change them but if you want to change the animations you can. The "Base Animation" is the transform animation, where you place the animation where your manakete transforms into a dragon. The "Transformed Animation" is the attack animation where you place the animation of your transformed manakete attacking the enemy. The "Transform Back" animation is the revert animation, and the transform finish animation is your manaketes unarmed animation. You must set ALL the animations for it to work. Click "Write to ROM" when you're done. Now, FINALLY, your dragonstone is ready to use!
+	4. You might be wondering "Now that I've made this dragonstone, how do I actually obtain it in the game?" There are a million ways you could do this but I recommend either putting a chest in a map (tower of valni or lagdou ruins if you're working with a vanilla) or making it for sale at a shop. See my guides on shops/armories or on map editing and creation.
+
+5. Set shops so that all items are available and purchaseable
+
+6. Create super classes which promoted classes will be able to change into via the master seal.
+
+7. Summoning Changes
+
+8. Reset Seal
+
+9. Non monster skirmishes
+
+10. Skirmishes spawn at all maps
+
+

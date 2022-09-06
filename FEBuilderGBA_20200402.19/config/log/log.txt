@@ -1,0 +1,308 @@
+_FBG_Temp_
+#define ItemImage 0x5926F4
+#define ItemPalette 0x5996F4
+#define ItemTable 0x809B10
+#define TextTable 0x01000000
+#define PortraitTable 0x8ACBC4
+#define SummonUnitTable 0x95F5A4
+PUSH
+ORG 0xB61A98
+SkillIcons:
+POP
+#define SkillIcons 0xB61A98
+#define AI1Table 0x5A9184
+#define AI2Table 0x5A9138
+#define HAX_ACTION_APPLICATION_REWORK_EVENT
+#define pActionRoutineTable 0xB3E8AC
+#define NoActionRoutine "WORD 0"
+#define ActionRoutine(apRoutine) "POIN apRoutine"
+#define ActionRoutine(apRoutine, abForcedYeild) "WORD (0x08000000 | apRoutine | (abForcedYeild << 28))"
+#define SetUnitAction(aActionId, adActionRoutine) "PUSH; ORG (pActionRoutineTable + 4*(aActionId-1)); adActionRoutine; POP"
+PUSH
+ORG 0xB42B94
+ASMC_Draw:
+POP
+#define ASMC_Draw 0xB42B94
+PUSH
+ORG 0xB606C8
+Skill_Getter:
+POP
+#define Skill_Getter 0xB606C8
+PUSH
+ORG 0xB33C68
+DragonVeinsIcon_Unit67Graphic:
+POP
+#define DragonVeinsIcon_Unit67Graphic 0xB33C68
+PUSH
+ORG 0xB60DAC
+RTextLoop:
+POP
+#define RTextLoop 0xB60DAC
+PUSH
+ORG 0xB60B5C
+SkillDescGetter:
+POP
+#define SkillDescGetter 0xB60B5C
+PUSH
+ORG 0xB60944
+SkillTester:
+POP
+#define SkillTester 0xB60944
+PUSH
+ORG 0xB6D0F4
+portrait_0x01_face_Graphic:
+POP
+#define portrait_0x01_face_Graphic 0xB6D0F4
+PUSH
+ORG 0xB6E0F8
+portrait_0x01_mouth_Graphic:
+POP
+#define portrait_0x01_mouth_Graphic 0xB6E0F8
+PUSH
+ORG 0xB6E6F8
+portrait_0x01_pal_Graphic:
+POP
+#define portrait_0x01_pal_Graphic 0xB6E6F8
+PUSH
+ORG 0xB6E718
+portrait_0x01_minimug_Graphic:
+POP
+#define portrait_0x01_minimug_Graphic 0xB6E718
+#define SKILLSYSTEM_SKILL_TESTER SkillTester
+#define USE_STRMAG_SPLIT
+ORG 0xB88570
+#include "C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\config\patch2\FE8U\Battle Transforming\FE8-Battle Transform EA.txt"
+
+
+-----------------
+A FE8 "-input:C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\config\patch2\FE8U\Battle Transforming\_FBG_Temp_637980205656900182.event" "-output:C:\Users\oselgrad\Desktop\FE Rom Hack\Sacred Stones\Fire Emblem Sacred Stones.event_assembler.GBA" "-symOutput:C:\Users\oselgrad\AppData\Local\Temp\tmp2EE3.tmp"
+=== OUTPUT ===
+Finished.
+No errors or warnings.
+Please continue being awesome.
+
+
+
+
+
+=== SYMBOL ===
+SkillIcons=$B61A98
+ASMC_Draw=$B42B94
+Skill_Getter=$B606C8
+DragonVeinsIcon_Unit67Graphic=$B33C68
+RTextLoop=$B60DAC
+SkillDescGetter=$B60B5C
+SkillTester=$B60944
+portrait_0x01_face_Graphic=$B6D0F4
+portrait_0x01_mouth_Graphic=$B6E0F8
+portrait_0x01_pal_Graphic=$B6E6F8
+portrait_0x01_minimug_Graphic=$B6E718
+Transformation_Table=$B88570
+Transform1=$B88590
+Find_Anim_Entry=$B885C8
+Transform1_Sound=$B885F0
+Detransform1=$B88680
+Detransform2=$B886E8
+
+Installed the patch "(Battle Transforming (Installer))". PATCH_Battle_Transform_install PATCH INSTALL
+0x070908@18 0x07096C@8 0x070A70@14 0x070AF8@14 0x070B3E@194 0xB88570@428 Write:Patches Battle Transforming (Installer) (PatchForm) Battle Transforming (Installer) 20220906002245
+0x01003530@4 0x0E8414@0 Write:Source  (TextForm) =TEXT:0D4C  20220906002513
+0x8AFC58@16 Write:Item Effect  (ItemWeaponEffectForm) @BC Dummy 20220906002749
+Allocate new Stat Boosts to this item?
+0x01009CA4@20 Write:0 (P12) NewAlloc ITEMSTATBOOSTER 20220906002949
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Dummy 20220906002949
+Space Allocated. Please allocate a value from the stat booster screen.
+0x01009CA4@20 Write:Stat Boosts  (ItemStatBonusesForm) @BC Fire Stone 20220906003006
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Fire Stone 20220906003306
+0x01009CB8@8 0x8084F4@4 0x8AF3FC@8 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906003859
+Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906003859
+0x8084F4@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906003859
+0x01009CC0@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Item 20220906004031
+0x01009CC8@26 0x2063A0@4 0xA3F144@26 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906004543
+0x01009CE2@2 Write:Shops/Armories  (ItemShopForm) @39 Thunder 20220906004551
+0x01009CE2@2 Write:Shops/Armories  (ItemShopForm) @BC Fire Stone 20220906004647
+InitSystem: Fire Emblem Sacred Stones.GBA ver: FE8U length: 1000000 FEBuilderGBA: 20220904.06
+0x15D7C0@4 0x0E8AD3@3 Write:Source  (TextForm) =TEXT:CD  20220906005357
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Dummy 20220906005524
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Fire Stone 20220906005542
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Fire Stone 20220906005600
+0x8AFC58@16 Write:Item Effect  (ItemWeaponEffectForm) @BC Fire Stone 20220906005618
+Allocate new Stat Boosts to this item?
+0x0100000C@20 Write:0 (P12) NewAlloc ITEMSTATBOOSTER 20220906005621
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Fire Stone 20220906005621
+Space Allocated. Please allocate a value from the stat booster screen.
+0x0100000C@20 Write:Stat Boosts  (ItemStatBonusesForm) @BC Fire Stone 20220906005635
+0x80B580@36 Write:Item Editor  (ItemForm) @BC Fire Stone 20220906005639
+0x01000020@8 0x8084F4@4 0x8AF3FC@8 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906005700
+Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906005700
+0x8084F4@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906005700
+0x01000028@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Item 20220906005719
+0x01000030@26 0x2063A0@4 0xA3F144@26 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906005830
+0x0100004A@2 Write:Shops/Armories  (ItemShopForm) @39 Thunder 20220906005838
+_FBG_Temp_
+#define ItemImage 0x5926F4
+#define ItemPalette 0x5996F4
+#define ItemTable 0x809B10
+#define TextTable 0x15D48C
+#define PortraitTable 0x8ACBC4
+#define SummonUnitTable 0x95F5A4
+#define AI1Table 0x5A9184
+#define AI2Table 0x5A9138
+ORG 0xB2A618
+#include "C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\config\patch2\FE8U\Battle Transforming\FE8-Battle Transform EA.txt"
+
+
+-----------------
+A FE8 "-input:C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\config\patch2\FE8U\Battle Transforming\_FBG_Temp_637980228199996637.event" "-output:C:\Users\oselgrad\Desktop\FE Rom Hack\Sacred Stones\Fire Emblem Sacred Stones.event_assembler.GBA" "-symOutput:C:\Users\oselgrad\AppData\Local\Temp\tmp94CC.tmp"
+=== OUTPUT ===
+Finished.
+No errors or warnings.
+Please continue being awesome.
+
+
+
+
+
+=== SYMBOL ===
+Transformation_Table=$B2A618
+Transform1=$B2A638
+Find_Anim_Entry=$B2A670
+Transform1_Sound=$B2A698
+Detransform1=$B2A728
+Detransform2=$B2A790
+
+Installed the patch "(Battle Transforming (Installer))". PATCH_Battle_Transform_install PATCH INSTALL
+0x070908@18 0x07096C@8 0x070A70@14 0x070AF8@14 0x070B3E@194 0xB2A618@428 Write:Patches Battle Transforming (Installer) (PatchForm) Battle Transforming (Installer) 20220906010019
+0x01000050@16 0x070BF8@4 0xB2A690@4 0xB2A618@16 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906010032
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906010042
+0x01000080@6432 0x059BD8@4 0x05A600@4 0x05A694@4 0x05A82C@4 0x06F6A8@4 0x070940@4 0x070A60@4 0xC00008@6432 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Fire Emblem Sacred Stones.GBA  20220906011326
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Transform.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Transform Sheet 8.png
+0x01002080@1936 0x010019B4@4 0x01002810@1928 0x010019B8@4 0x01002F98@68 0x010019BC@4 0x01002FDC@3476 0x01003D70@2356 0x010046A4@2908 0x01005200@3224 0x01005E98@2828 0x010069A4@3640 0x010077DC@4948 0x01008B30@404 0x010019B0@4 0x01008CC4@48 0x010019AC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20220906011810
+0x010019A0@32 Write:Battle Animations  (ImageBattleAnimeForm) @CA lorm_sp1 20220906011817
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Dragonstone Sheet 8.png
+0x01008CF4@1664 0x010019D4@4 0x01009374@1696 0x010019D8@4 0x01009A14@72 0x010019DC@4 0x01009A5C@4704 0x0100ACBC@4812 0x0100BF88@4460 0x0100D0F4@4532 0x0100E2A8@4744 0x0100F530@4604 0x0101072C@3104 0x0101134C@480 0x010019D0@4 0x0101152C@48 0x010019CC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906011849
+0x010019C0@32 Write:Battle Animations  (ImageBattleAnimeForm) @CB lorm_sp1 20220906011851
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Revert.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Dragonstone\Revert Sheet 5.png
+0x0101155C@1092 0x010019F4@4 0x010119A0@1096 0x010019F8@4 0x01011DE8@68 0x010019FC@4 0x01011E2C@4164 0x01012E70@2884 0x010139B4@2772 0x01014488@4200 0x010154F0@256 0x010019F0@4 0x010155F0@48 0x010019EC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Revert.bin 20220906011859
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Unarmed\Unarmed.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Morva\8. Unarmed\Unarmed Sheet 2.png
+0x01015620@388 0x01001A14@4 0x010157A4@392 0x01001A18@4 0x0101592C@68 0x01001A1C@4 0x01015970@3448 0x010166E8@204 0x01001A10@4 0x010167B4@48 0x01001A0C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20220906011911
+0x01000028@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Fire Stone 20220906011944
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906012023
+InitSystem: Dragonstone.gba ver: FE8U length: 10167E4 FEBuilderGBA: 20220904.06
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Transform.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Transform Sheet 8.png
+0x010167E4@1988 0x01001A34@4 0x01016FA8@1996 0x01001A38@4 0x01017774@92 0x01001A3C@4 0x010177D0@1972 0x01017F84@2916 0x01018AE8@1904 0x01019258@2416 0x01019BC8@1984 0x0101A388@3148 0x0101AFD4@3332 0x0101BCD8@228 0x01001A30@4 0x0101BDBC@48 0x01001A2C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20220906015607
+0x01001A20@32 Write:Battle Animations  (ImageBattleAnimeForm) @CE lorm_sp1 20220906015609
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Dragonstone Sheet 8.png
+0x0101BDEC@1624 0x01001A54@4 0x0101C444@1648 0x01001A58@4 0x0101CAB4@52 0x01001A5C@4 0x0101CAE8@4568 0x0101DCC0@4356 0x0101EDC4@4156 0x0101FE00@4008 0x01020DA8@4300 0x01021E74@3512 0x01022C2C@2692 0x010236B0@484 0x01001A50@4 0x01023894@48 0x01001A4C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906015622
+0x01001A40@32 Write:Battle Animations  (ImageBattleAnimeForm) @CF lorm_sp1 20220906015626
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Revert.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Revert Sheet 7.png
+0x010238C4@1732 0x01001A74@4 0x01023F88@1748 0x01001A78@4 0x0102465C@92 0x01001A7C@4 0x010246B8@3332 0x010253BC@3148 0x01026008@1984 0x010267C8@2416 0x01027138@3352 0x01027E50@2760 0x01028918@236 0x01001A70@4 0x01028A04@48 0x01001A6C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Revert.bin 20220906015638
+0x01001A60@32 Write:Battle Animations  (ImageBattleAnimeForm) @D0 lorm_sp1 20220906015642
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Unarmed\Unarmed.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Tiki_Dragon\8. Unarmed\Unarmed Sheet 2.png
+0x01028A34@300 0x01001A94@4 0x01028B60@308 0x01001A98@4 0x01028C94@76 0x01001A9C@4 0x01028CE0@2544 0x010296D0@168 0x01001A90@4 0x01029778@48 0x01001A8C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20220906015659
+0x01001A80@32 Write:Battle Animations  (ImageBattleAnimeForm) @D1 lorm_sp1 20220906015701
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Transform.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Transform Sheet 5.png
+0x010297A8@1072 0x01001AB4@4 0x01029BD8@1056 0x01001AB8@4 0x01029FF8@104 0x01001ABC@4 0x0102A060@2928 0x0102ABD0@3796 0x0102BAA4@4196 0x0102CB08@2384 0x0102D458@224 0x01001AB0@4 0x0102D538@48 0x01001AAC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20220906015736
+0x01001AA0@32 Write:Battle Animations  (ImageBattleAnimeForm) @D2 lorm_sp1 20220906015745
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Dragonstone Sheet 5.png
+0x0102D568@1484 0x01001AD4@4 0x0102DB34@1508 0x01001AD8@4 0x0102E118@96 0x01001ADC@4 0x0102E178@4808 0x0102F440@5232 0x010308B0@5000 0x01031C38@3416 0x01032990@400 0x01001AD0@4 0x01032B20@48 0x01001ACC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906015804
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone (FE7)\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone (FE7)\Dragonstone Sheet 10.png
+0x01032B50@4240 0x01001AF4@4 0x01033BE0@4268 0x01001AF8@4 0x01034C8C@60 0x01001AFC@4 0x01034CC8@4424 0x01035E10@4180 0x01036E64@3484 0x01037C00@3660 0x01038A4C@4052 0x01039A20@2404 0x0103A384@2392 0x0103ACDC@3496 0x0103BA84@3632 0x0103C8B4@1100 0x01001AF0@4 0x0103CD00@48 0x01001AEC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906015837
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Unarmed\Unarmed.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Unarmed\Unarmed Sheet 2.png
+0x0103C8B4@468 0x01001AF4@4 0x0103CA88@464 0x01001AF8@4 0x0103CC58@104 0x01001AFC@4 0x0103BA84@3504 0x0103A384@212 0x01001AF0@4 0x0103CD00@48 0x01001AEC@4 0x01034C8C@58 0x0103CCC0@63 0x0103A458@2179 0x01039A20@2404 0x01036E64@3482 0x0103ACDC@3493 0x0103C834@125 0x01037C00@3660 0x01038A4C@4050 0x01035E10@4180 0x01032B50@4238 0x01033BE0@4266 0x01034CC8@4423 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20220906020017
+Are you sure you want to overwrite with clipboard data?
+0x01001AE0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020607
+Are you sure you want to overwrite with clipboard data?
+0x01001AE0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020618
+Are you sure you want to overwrite with clipboard data?
+0x01001A80@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020641
+Are you sure you want to overwrite with clipboard data?
+0x01001A80@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020649
+Are you sure you want to overwrite with clipboard data?
+0x01001AC0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020701
+Are you sure you want to overwrite with clipboard data?
+0x01001AE0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020827
+Are you sure you want to overwrite with clipboard data?
+0x01001AC0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020833
+Are you sure you want to overwrite with clipboard data?
+0x01001AA0@32 Write:Battle Animations  (ImageBattleAnimeForm)  20220906020839
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Transform.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Transform Sheet 5.png
+0x01032B60@1072 0x01001AB4@4 0x01032F94@1056 0x01001AB8@4 0x010333B8@104 0x01001ABC@4 0x01033434@2928 0x01033FA8@4 0x01033FBC@3796 0x01034E9C@4196 0x01035F04@4 0x01035F18@2384 0x0103686C@4 0x01036880@224 0x01001AB0@4 0x01036970@48 0x01001AAC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20220906020856
+0x01001AA0@32 Write:Battle Animations  (ImageBattleAnimeForm) @D2 lorm_sp1 20220906020859
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone\Dragonstone Sheet 5.png
+0x010369B0@1484 0x01001AD4@4 0x01036F84@1508 0x01001AD8@4 0x01037574@96 0x01001ADC@4 0x0103CD30@4808 0x0103DFF8@5232 0x0103F468@5000 0x010375E4@3416 0x01038340@4 0x010407F0@400 0x01001AD0@4 0x01038354@48 0x01001ACC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906020906
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone (FE7)\Dragonstone.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Dragonstone (FE7)\Dragonstone Sheet 10.png
+0x0103CD30@4240 0x01001AD4@4 0x0103F468@4268 0x01001AD8@4 0x01037574@60 0x01001ADC@4 0x0103DFF8@4424 0x01040980@4180 0x010419D4@3484 0x01042770@3660 0x010435BC@4052 0x010375E4@2404 0x01044590@2392 0x01044EE8@3496 0x01045C90@3632 0x010369B0@1100 0x01001AD0@4 0x01038354@48 0x01001ACC@4 0x010375B0@34 0x010407F0@400 0x01036DFC@381 0x01036F84@1508 0x01037F48@1009 0x0103DDC0@566 0x01040514@732 0x0103F140@806 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20220906020946
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Unarmed\Unarmed.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Fae\8. Unarmed\Unarmed Sheet 2.png
+0x01046AC0@468 0x01001AF4@4 0x01046C94@464 0x01001AF8@4 0x01046E64@104 0x01001AFC@4 0x01046ECC@3504 0x01047C7C@212 0x01001AF0@4 0x01047D50@48 0x01001AEC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20220906021027
+0x01001AE0@32 Write:Battle Animations  (ImageBattleAnimeForm) @D4 lorm_sp1 20220906021032
+0x01000050@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021129
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021213
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021257
+0x01000050@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021300
+0x01000024@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Dragonstone 20220906021346
+0x01000028@4 Write:Battle Animations  (ImageBattleAnimeForm) @CD Fire Stone 20220906021358
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021703
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906021935
+0x01000050@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906022438
+0x01000060@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906022500
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Generic\Map Stand\Manakete (U) FE6 Generic {IS}-stand.png
+0x1B8640@56 0x8AF8CC@4 Write:Standing Map Anims  (ImageUnitWaitIconFrom)  20220906022703
+0x8AF8C8@8 Write:Standing Map Anims  (ImageUnitWaitIconFrom) @09 Manakete 20220906022704
+0x8AF8C8@8 Write:Standing Map Anims  (ImageUnitWaitIconFrom) @09 Manakete 20220906022706
+Open: C:\Users\oselgrad\Desktop\FE Rom Hack\Animations\Manaketes\Generic\Map Walk\Manakete (U) FE6 Generic {IS}-walk.png
+0x1C95B4@2928 Write:Moving Map Anims  (ImageUnitMoveIconFrom)  20220906022734
+0x9A2E68@8 Write:Moving Map Anims  (ImageUnitMoveIconFrom) @0E Manakete 20220906022734
+0x9A2E68@8 Write:Moving Map Anims  (ImageUnitMoveIconFrom) @0E Manakete 20220906022736
+0x8AF0AC@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Item 20220906022835
+0x8AF0B0@4 Write:Battle Animations  (ImageBattleAnimeForm) @C7 Dragonstone 20220906022841
+0x01047ED4@8 0x8075DC@4 0x8AF0AC@8 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Dragonstone.gba  20220906022848
+Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906022848
+0x8075DC@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20220906022848
+0x01047EDC@4 Write:Battle Animations  (ImageBattleAnimeForm) @CD Item 20220906022909
+0x01047EE4@32 0x070BF8@4 0xB2A690@4 0x01000050@32 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Dragonstone.gba  20220906022940
+0x01047F04@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906023115
+0x01047F14@16 Write:Patches Battle Transforming Editor (PatchForm) @3C Manakete 20220906023154
+0x8B3BC4@48 Write:Unit Placer  (EventUnitForm)  20220906023252
+0x8B3C14@20 Write:Unit Placer  (EventUnitForm) @Seth(Paladin)  Lv:1 20220906023252
+0x8B3BC4@48 Write:Unit Placer  (EventUnitForm)  20220906023426
+0x8B3C14@20 Write:Unit Placer  (EventUnitForm) @Seth(Manakete)  Lv:1 20220906023426
+0x01047F34@60 0x9EF0A8@4 0x8B3C50@60 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area Dragonstone.gba  20220906023649
+0x01047F77@1 0x01047F78@4 Write:Unit Placer  (EventUnitForm) ClearP8AndB7 20220906023649
+0x01047F70@20 Write:Unit Placer  (EventUnitForm) @O'Neill(Fighter)  Lv:4 20220906023910
+0x01047F70@20 Write:Unit Placer  (EventUnitForm) @Enemy(Manakete)  Lv:1 20220906024005
+InitSystem: 4 Fire Emblem Sacred Stones Archsage.gba ver: FE8U length: 1014850 FEBuilderGBA: 20220904.06
+Your data changes in this form haven't been written to the ROM. Close anyway?
+Your data changes in this form haven't been written to the ROM. Close anyway?
