@@ -306,3 +306,23 @@ Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 2022090602
 InitSystem: 4 Fire Emblem Sacred Stones Archsage.gba ver: FE8U length: 1014850 FEBuilderGBA: 20220904.06
 Your data changes in this form haven't been written to the ROM. Close anyway?
 Your data changes in this form haven't been written to the ROM. Close anyway?
+InitSystem: Dragonstone.gba ver: FE8U length: 1047F98 FEBuilderGBA: 20220904.06
+0x95E0AB@7 Write:Palette Editor  (UnitPaletteForm) @02 Seth 20220906034732
+0x95EEAB@7 Write:Palette Editor  (UnitPaletteForm) @02 Seth 20220906034817
+0x9A2E68@4 0x07ACA8@4 Write:Patches ManaketePalette(Pallet of the unit when transform dragon) (PatchForm) =ManaketePalette(Pallet of the unit when transform dragon)  20220906035230
+0x9A2E68@4 0x07ACA8@4 Write:Patches ManaketePalette(Pallet of the unit when transform dragon) (PatchForm) =ManaketePalette(Pallet of the unit when transform dragon)  20220906035249
+Open: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\8. Transform\Transform.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\8. Transform\Transform Sheet 2.png
+0x01008B30@180 0x010019B4@4 0x01008BE4@180 0x010019B8@4 0x01002810@72 0x010019BC@4 0x01002858@1604 0x01002080@316 0x010019B0@4 0x01008CC4@48 0x010019AC@4 0x01002F98@67 0x01008C98@41 0x01002E9C@251 0x010021BC@1618 0x01003D70@2354 0x01005E98@2826 0x010046A4@2905 0x01005200@3223 0x01002FDC@3473 0x010069A4@3639 0x010077DC@4945 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20220906040244
+0x010019A0@32 Write:Battle Animations  (ImageBattleAnimeForm) @CA lorm_sp1 20220906040249
+Open: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\8. Revert\Revert.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\8. Revert\Revert Sheet 2.png
+0x010154F0@108 0x010019F4@4 0x0101555C@108 0x010019F8@4 0x0101155C@72 0x010019FC@4 0x010139B4@1484 0x010115A4@268 0x010019F0@4 0x010155F0@48 0x010019EC@4 0x01011DE8@67 0x010155C8@37 0x010116B0@751 0x010119A0@1093 0x01013F80@1286 0x01012E70@2882 0x01011E2C@4162 0x01014488@4197 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Revert.bin 20220906040321
+0x010019E0@32 Write:Battle Animations  (ImageBattleAnimeForm) @CC lorm_sp1 20220906040326
+Open: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\9. Unarmed\Unarmed.bin
+There is no file.
+File name: C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Animations\Manaketes\Generic\9. Unarmed\Unarmed Sheet 2.png
+0x010166E8@96 0x01001A14@4 0x01016748@96 0x01001A18@4 0x0101592C@60 0x01001A1C@4 0x01015970@1736 0x01015620@148 0x01001A10@4 0x010167B4@48 0x01001A0C@4 0x01015968@7 0x010167A8@10 0x010156B4@237 0x010157A4@391 0x01016038@1711 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20220906040342
+0x01001A00@32 Write:Battle Animations  (ImageBattleAnimeForm) @CD lorm_sp1 20220906040345
