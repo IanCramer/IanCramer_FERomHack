@@ -10,16 +10,15 @@
   </item>
   <item>
     <key>emulator</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\VBA-M\VisualBoyAdvance-M\VisualBoyAdvance-M.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\VBA-M\VisualBoyAdvance-M\VisualBoyAdvance-M.exe</value>
   </item>
   <item>
     <key>emulator2</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\no$gba\NO$GBA.EXE</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\no$gba\NO$GBA.EXE</value>
   </item>
   <item>
     <key>sappy</key>
-    <value>
-    </value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\sappy\sappy.exe</value>
   </item>
   <item>
     <key>program1</key>
@@ -38,7 +37,7 @@
   </item>
   <item>
     <key>devkitpro_eabi</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\asm\arm-none-eabi-as.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\asm\arm-none-eabi-as.exe</value>
   </item>
   <item>
     <key>goldroad_asm</key>
@@ -47,12 +46,11 @@
   </item>
   <item>
     <key>event_assembler</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\Event Assembler\Core.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\Event Assembler\Core.exe</value>
   </item>
   <item>
     <key>mid2agb</key>
-    <value>
-    </value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\sappy\Mid2Agb\mid2agb.exe</value>
   </item>
   <item>
     <key>CFLAGS</key>
@@ -70,11 +68,11 @@
   </item>
   <item>
     <key>gba_mus_riper</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\gba_mus_riper\song_riper.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\gba_mus_riper\song_riper.exe</value>
   </item>
   <item>
     <key>sox</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\sox\sox-14.4.2\sox.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\sox\sox-14.4.2\sox.exe</value>
   </item>
   <item>
     <key>FECLIB</key>
@@ -319,7 +317,7 @@
   </item>
   <item>
     <key>func_midi_importer</key>
-    <value>0</value>
+    <value>1</value>
   </item>
   <item>
     <key>func_show_class_extends</key>
@@ -375,11 +373,11 @@
   </item>
   <item>
     <key>Last_Rom_Filename</key>
-    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\Storge\Fire Emblem Storge.GBA</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\ROMs\Sacred Stones\Fire Emblem Sacred Stones.GBA</value>
   </item>
   <item>
     <key>midfix4agb</key>
-    <value>C:\Users\oselgrad\Desktop\FE Rom Hack\FEBuilderGBA_20200402.19\app\midfix4agb\midfix4agb.exe</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\FEBuilderGBA_20200402.19\app\midfix4agb\midfix4agb.exe</value>
   </item>
   <item>
     <key>srccode_texteditor</key>

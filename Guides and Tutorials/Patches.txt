@@ -1,0 +1,52 @@
+Patches (Order Matters!)
+- Anti-Huffman
+- Skill System 20190708
+	Might be called "Skill SkillSystem" or something like that. Get the most recent. Installing and removing this patch can break your game. This patch includes many patches as a package/suite. The included patches are below marked by what can and what can't be removed after install
+	
+	1. 
+
+
+
+- ExModularSave
+	Careful of this patch. While it is ultimately better to include the patch (especially as part of the skill system patch) it changes the way the ROM read and writes save files. Save files made by ROMs with this patch will not be readable by ROMs without it and vice versa. However, many other patches rely on this patch and not having it can lead to game crash if dependent patches are installed. Installing and removing this patch can break your game. This patch is included in the Skill System Patch.
+
+
+
+
+- Remove Control Enemy
+- Battle Transforming Installer/Editor
+- 1 HP in Arena (Don't die in arena)
+- Change multiplication rate of the qreq for eqch difficulty
+- Metis's Tome Growth Bonus
+- 3 Promotion Branch Options
+- Disable the Prep store for a particular map
+- Actions after support
+- Actions after Talk
+- RNG randomizer
+- Less Annoying Fog
+- Display all 8 weapon ranks
+
+- Add Event: Split Menu
+- Add Event Condition: Accumulated Gold
+- Add Event: Lose Gold
+- Add Event Condition: Item Check (All units and transporters)
+- Add Event Lose Item
+- Add Event: Difficulty Switching
+- Add Event: Get the total number of turns in game
+- Add Event: Get number of clear turns for chapter
+- Add Event: Convert memory slot value to string
+- Add Event: Simple Escape Event
+
+- Magic Sword Rework Installer/Editor
+- LeaderAIFix
+- Display all 8 weapon ranks
+- Exceed The Portrait Hackbox by 4 tiles
+- Define multiple prohibits the crit by item installer/editor
+- MultiTile Marker Display multiple exit markers on the map installer/editor
+- Show Heal Amount
+- Weapon Lock Ex Installer/Editor
+- Range-Animated Weapons List Installer/Editor
+- Prevent uncounterable items from becoming forced range animations
+- Lose Weapon Ranks on Promotion
+
+

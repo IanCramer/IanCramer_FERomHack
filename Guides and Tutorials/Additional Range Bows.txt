@@ -1,0 +1,9 @@
+Creating Weapons with new ranges (a range not available by default).
+
+
+
+1. Get the skill systems patch
+
+2. Make a new bow in the Item Editor menu
+
+3. In the "Weapon Stats" under "Range" set the number to be a two digit number with the first digit being the minimum attack distance (i.e. 1 is a melee attack and 2 is the default bow range) and the second digit is the maximum attack distance (i.e. 2 for regular bows and 3 for the long bow).
