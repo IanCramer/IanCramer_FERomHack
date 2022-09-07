@@ -1,5 +1,59 @@
-This is a very simple project to create 5 chapters where in Ephraim leads his attack into Grado (as in the one Erika then tries to rescue him from).
 
+
+This is a very simple project to create 5 chapters (with 2 optional chapters) about Ephraim's initial campaign into Grado culminating in his arrival at Renvall.
+
+
+
+
+
+
+
+	Features
+
+Two new chapter maps:
+	- Visitable house with convo
+	- Village with convo and item
+	- Chests
+	- Shop, armory, secret shop
+	- fort, gate, throne
+	- arena
+
+
+
+A playable and explorable world map with new nodes and roads (maybe)
+
+
+
+Optional Chapters
+	An optional chapter that unlocks automatically at the end of the preceeding chapter
+	An optional chapter that unlocks at the end of the preceeding chapter only if something is achieved during the preceeding chapter (i.e. a house or village is visited)	
+
+
+
+Custom Classes
+	Custom manakete
+	Halberdier
+	Spartan
+	3 branch promotion (see patch)
+	promotion items offer distinct promotion
+
+
+
+
+Custom Items
+	Fire Stone, Dark Stone (Custom Dragonstones)
+	Bows have 2-3 range (longbow with 2/3-4)
+	Flame Sword (custom magic sword)
+	
+	
+
+
+Recruitment Features:
+	- Automatic recruitment at start of chapter where character appears in prep screen
+	- Automatic recruitment at start of chapter where character is not in prep screen (appears on the map as a player unit
+	- Recruitment of an ally by talking
+	- Recruitment of an enemy by talking
+	- Recruitment of an enemy by battle with specific unit.
 
 
 
