@@ -70,6 +70,5 @@ Recruitment Features:
 
 
 Things to do:
-1. Rip dragonstone icons from Fire Emblem Storge
 2. Rip Dragon animation from Fire Emblem Storge
 3. Rip Elephant Riders Animation from Fire Emblem Storge?

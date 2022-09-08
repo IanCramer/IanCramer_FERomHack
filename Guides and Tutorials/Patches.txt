@@ -3,7 +3,8 @@ Patches (Order Matters!)
 - Skill System 20190708
 	Might be called "Skill SkillSystem" or something like that. Get the most recent. Installing and removing this patch can break your game. This patch includes many patches as a package/suite. The included patches are below marked by what can and what can't be removed after install
 	
-	1. 
+	1. Remove Control Enemy
+	2. Display all 8 weapon ranks
 
 
 
@@ -13,18 +14,46 @@ Patches (Order Matters!)
 
 
 
-- Remove Control Enemy
-- Battle Transforming Installer/Editor
+
+
+Arena Patches
 - 1 HP in Arena (Don't die in arena)
+
+
+
+Promotion Patches (See the Promotion Patches document for more details on each patch)
+- 3 Promotion Branch Options
+- Lose Weapon Ranks on Promotion
+- Menu Promote Command
+
+- Split Promotion Items Installer/Editor
+- Toggle Trainee Automatic Promotion
+- Remove game clear requirement for trainees third promotion options
+- Level does not decrease with promotion
+- Level after promotion (set units to promote to a specific level after promotion)
+- Display/Hide Weapon on promote
+- Minimum Promotion Level (set the minimum level for units to promote)
+- Trainee Promotion Table
+- Max weapon level for unpromoted classes
+- Allow 3 or more trainee to be regist Installer/Editor
+
+
+
+
+
+
+Manakete Animation Patch
+- Battle Transforming Installer/Editor
+
 - Change multiplication rate of the qreq for eqch difficulty
 - Metis's Tome Growth Bonus
-- 3 Promotion Branch Options
+
 - Disable the Prep store for a particular map
 - Actions after support
 - Actions after Talk
 - RNG randomizer
 - Less Annoying Fog
-- Display all 8 weapon ranks
+
 
 - Add Event: Split Menu
 - Add Event Condition: Accumulated Gold
@@ -39,7 +68,7 @@ Patches (Order Matters!)
 
 - Magic Sword Rework Installer/Editor
 - LeaderAIFix
-- Display all 8 weapon ranks
+
 - Exceed The Portrait Hackbox by 4 tiles
 - Define multiple prohibits the crit by item installer/editor
 - MultiTile Marker Display multiple exit markers on the map installer/editor
@@ -47,6 +76,7 @@ Patches (Order Matters!)
 - Weapon Lock Ex Installer/Editor
 - Range-Animated Weapons List Installer/Editor
 - Prevent uncounterable items from becoming forced range animations
-- Lose Weapon Ranks on Promotion
+- Fix Weak Promoted Enemies
+
 
 
