@@ -1,4 +1,9 @@
-Promotion Patches
+Promotion (& Trainee) Patches
+
+
+
+____________________________________________________________________________
+
 
 1. 3 Promotion Branch Options
 
@@ -19,31 +24,55 @@ This patch allows you to set certain promotion items to promote units into speci
 ____________________________________________________________________________
 
 
+3. Display/Hide Weapon on promote
 
-3. Toggle Trainee Automatic Promotion
+This patch is a toggle that will hide weapons upon animation. This is useful if one class for example uses swords but promotes into a class that cannot use swords. In this scenario, the game will crash. However, by hiding the weapon you can prevent the game from crashing. Of course this doesn't look as cool, but unfortunately there is no way to detect whether the unit is holding an un-animatable weapon before trying.
+
+
+______________________________________________________________________________
+
+
+4. Allow 3 or more trainee to be regist (Installer/Editor)
+
+This patch allows you to label additional units as trainees. Trainees are handled by the character when that character is a specific class. Trainees promote automatically at a certain level (which can be set in the editor).
+
+_______________________________________________________________________________
+
+
+5. Toggle Trainee Automatic Promotion
 
 This is a simple toggle patch, i.e. search it up in the patch window, pick the setting you want and hit "Write to ROM". I don't recommend turning this off as trainee classes will then require an item to promote.
 
 
+_______________________________________________________________________________
+
+6. Modify S Rank Limits
+
+I know this is neither a promotion patch nor a trainee patch but it is the only weapon rank patch I recommend. It is a simple toggle patch which allows units to become S rank in every weapon they use. I never understood why units were limited so I think it's a good patch.
 
 
+__________________________________________________________________________________
+
+7. Lose Weapon Ranks on Promotion
+
+By default Ewan is the only unit to lose the ability to use a weapon when promoted from a pupil to a shaman. His loss of anima magic was hardcoded. This patch makes it dynamic so any unit promoting into a class that lacks the use of a pre-promote's weapon will lose that weapon rank.
+
+I don't think this should be used because I don't think a character would "forget" how to use a sword just because s/he was promoted into a class that doesn't use swords.
+
+Can change the default loss of Ewan's weapon rank with
+- Ewan weapon rank removal on Promotion
 
 
+__________________________________________________________________________________
 
-
-
-
-
-- Lose Weapon Ranks on Promotion
 
 - Remove game clear requirement for trainees third promotion options
 - Level does not decrease with promotion
 - Level after promotion (set units to promote to a specific level after promotion)
-- Display/Hide Weapon on promote
 - Minimum Promotion Level (set the minimum level for units to promote)
 - Trainee Promotion Table
 - Max weapon level for unpromoted classes
-- Allow 3 or more trainee to be regist Installer/Editor
+
 
 
 
@@ -56,6 +85,6 @@ ____________________________________________________________________________
 
 Menu Promote Command (BUGGY!!)
 
-I believe the idea behind this patch was to give units the ability to promote without promotional items based on whether certain other conditions were met. However, I haven't succeeded in getting it to work as it seems buggy and causes my game to crash.
+I believe the idea behind this patch was to give units the ability to promote without promotional items based on whether certain other conditions were met. However, I haven't succeeded in getting it to work as it seems buggy and causes my game to crash. If you want a character or unit to promote automatically at some point I would suggest making the unit a trainee via one of the trainee patches and setting the level and flag requirements accordingly.
 
 

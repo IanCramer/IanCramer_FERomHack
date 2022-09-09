@@ -1,42 +1,42 @@
-Patches (Order Matters!)
-- Anti-Huffman
-- Skill System
-	Read more in the document dedicated to the skill system suite of patches.
-- ExModularSave
+Patches To Explore
+
+- Disable the prep store for a particular map (istaller/editor)
+- Beserk Unit Battle Animation
+	Enables battle animations for units that have been beserked.
+- Casual Mode (Installer/Editor)
+	USE THE INSTALLER/EDITOR VERSION. Do not get the automatic casual mode patch. Use the installer/editor version to give the option of casual mode at the beginning of the game
+- Level Cap Editor (Requires Skill Systems)
+- Decide whether to FilAIDangerMap
+	Improves efficiency of enemy AI. Works in conjuction with the "FillAIDangerMap Efficiency Fix" patch that is the standard for improving enemy AI efficiency and comes with the Skill Systems Patch.
+- Prohibit Support Conversation
+- DismountEx Enable to Rade and Exit (Installer/Editor)
+- Multi-Class Pick Skill (Installer/Editor)
+- ExtendWeaponDescBox
+	Extends the weapon description from 1 line to 3 lines.
+- Allow fast forwarding of battle animations
+- Fates EXP
+	Adjusts the EXP formula
+- Enable Locked Weapon Prf Constraints on staffs and items as well
+- Fixed Damage Weapons
+- Change weapon's range text (installer/editor)
+- Passive Boosts Patch (regular and non stack)
+- Growth_Mod
+	Allows for creation of items which increase growth rates (Requires passive boosts patch)
 
 
 
 
-Arena Patches
-- 1 HP in Arena (Don't die in arena)
 
-
-
-Promotion (& Trainee) Patches
-- 3 Promotion Branch Options
-- Split Promotion Items Installer/Editor
-- Display/Hide Weapon on promote
-
-- Lose Weapon Ranks on Promotion
-- Remove game clear requirement for trainees third promotion options
-- Level does not decrease with promotion
-- Level after promotion (set units to promote to a specific level after promotion)
 
 - Minimum Promotion Level (set the minimum level for units to promote)
 - Trainee Promotion Table
 - Max weapon level for unpromoted classes
-- Allow 3 or more trainee to be regist Installer/Editor
-
-- Toggle Trainee Automatic Promotion
-- Menu Promote Command (BUGGY)
 
 
 
 
 
 
-Manakete Animation Patch
-- Battle Transforming Installer/Editor
 
 - Change multiplication rate of the qreq for eqch difficulty
 - Metis's Tome Growth Bonus
@@ -71,7 +71,6 @@ Manakete Animation Patch
 - Prevent uncounterable items from becoming forced range animations
 - Fix Weak Promoted Enemies
 - Modern Character Growths
-- Modify S rank limits
 - 
 
 

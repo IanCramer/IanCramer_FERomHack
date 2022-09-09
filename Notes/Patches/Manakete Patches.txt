@@ -1,0 +1,14 @@
+Manakete Patches
+
+
+___________________________________________________________________________________
+
+1.  Battle Transforming Installer/Editor
+
+This patch is absolutely necessary for additional manakete classes. Allows you to allocate and appoint animations for new manakete classes. These animations can be set to the animations used in the game (by myrrh) or new animations. Manakete animations come in 4 parts: transform, attack, revert, and unarmed. This patch allows you to set the each part of a manakete's animation.
+
+___________________________________________________________________________________
+
+2. Dynamically change the dragonstone's fire breath palette (Installer/Editor)
+
+Allows you to set the dragonstone fire breath pallette to change base on the weapon and user.

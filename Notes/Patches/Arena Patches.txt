@@ -10,4 +10,12 @@ This is a great patch. If your unit dies in the arena, they do not die in the ga
 
 
 
-2. 
+2. Change multiplication rate of the arena for each difficulty (installer/editor)
+
+
+
+
+
+3. Make strong enemy units appear in Arena (Installer/Editor)
+
+Make enemy units that exceed level 31 appear in Arena. In vanilla, there is a bug where if you exceed level 31,level will overflow then level 1 unit will appear. It this patch also allows you to add a correction to your opponent's status based on your level.
