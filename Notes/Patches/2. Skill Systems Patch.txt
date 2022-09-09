@@ -1,0 +1,59 @@
+Skill Systems Patch
+
+This is a large package/suite of patches. This should be the first thing you do when starting a new project as many features are only possible with the foundational reworking this patch does.
+
+
+1. Anti-Huffman
+
+DO NOT REMOVE
+
+This patch is for writing and changing text information in the game
+
+
+
+
+2. ExModular Save with Supply 200
+
+DO NOT REMOVE
+
+This patch expands the size of the ROM and the save file so the game can, simply put, contain more information. This is a very useful patch, however, it does change the way the ROM reads and writes save files so saves without this patch cannot be read by ROMs with the patch and vice versa. Many patches rely on this patch because of its expansion of the architecture.
+
+
+
+
+
+3. Skill SkillSystems
+
+DO NOT REMOVE
+
+This is the heart and soul of this patch suite. It installs the entire skill systems rework allowing characters and classes to be given multiple skills from a long list of options and the ability to unlock skills at certain levels. This patch is highly recommended and dramatically increases the opportunity for creative modifications. However, if you do not want this patch, do not download the suite because removing this patch (or any other within the suite labled "DO NOT REMOVE") will break your ROM.
+
+
+
+
+
+
+2. AnimNumbers Damage pop-up in battle anime (installer/editor)
+3. AoE Area of Effect (Installer/Editor)
+4. Fix CG Fade Glitch
+5. CritCap. Fixed critical from appearing in excess of 100%
+6. Map Danger Zone (Select Toggle)
+7. Draw Attack effect on map animation when battle animation off (installer/editor)
+8. Remove Control Enemy Glitch
+9. Display Escape Menu
+11. FE8-Battle Stats with Anims Off
+12. Attack and capture enemies with reduced speed like FE5
+13. Rogue Robbery
+14. 01command_hack
+15. 48command_hack
+16. 16_tracks_12_sounds
+17. FillAIDangerMap Efficiency Fix
+18. fix_IZ77decompress
+19. HPBars_
+20. m4a gq mixer
+21. Magic Sword Rework (installer/editor)
+22. Narrow Font
+23. Switch the death quote for each unit who is killer
+24. DurabilityBasedItemEvent
+26. Stairs
+27. Unit Action Rework

@@ -1,0 +1,78 @@
+Patches (Order Matters!)
+- Anti-Huffman
+- Skill System
+	Read more in the document dedicated to the skill system suite of patches.
+- ExModularSave
+
+
+
+
+Arena Patches
+- 1 HP in Arena (Don't die in arena)
+
+
+
+Promotion (& Trainee) Patches
+- 3 Promotion Branch Options
+- Split Promotion Items Installer/Editor
+- Display/Hide Weapon on promote
+
+- Lose Weapon Ranks on Promotion
+- Remove game clear requirement for trainees third promotion options
+- Level does not decrease with promotion
+- Level after promotion (set units to promote to a specific level after promotion)
+
+- Minimum Promotion Level (set the minimum level for units to promote)
+- Trainee Promotion Table
+- Max weapon level for unpromoted classes
+- Allow 3 or more trainee to be regist Installer/Editor
+
+- Toggle Trainee Automatic Promotion
+- Menu Promote Command (BUGGY)
+
+
+
+
+
+
+Manakete Animation Patch
+- Battle Transforming Installer/Editor
+
+- Change multiplication rate of the qreq for eqch difficulty
+- Metis's Tome Growth Bonus
+
+- Disable the Prep store for a particular map
+- Actions after support
+- Actions after Talk
+- RNG randomizer
+- Less Annoying Fog
+
+
+- Add Event: Split Menu
+- Add Event Condition: Accumulated Gold
+- Add Event: Lose Gold
+- Add Event Condition: Item Check (All units and transporters)
+- Add Event Lose Item
+- Add Event: Difficulty Switching
+- Add Event: Get the total number of turns in game
+- Add Event: Get number of clear turns for chapter
+- Add Event: Convert memory slot value to string
+- Add Event: Simple Escape Event
+
+- Magic Sword Rework Installer/Editor
+- LeaderAIFix
+
+- Exceed The Portrait Hackbox by 4 tiles
+- Define multiple prohibits the crit by item installer/editor
+- MultiTile Marker Display multiple exit markers on the map installer/editor
+- Show Heal Amount
+- Weapon Lock Ex Installer/Editor
+- Range-Animated Weapons List Installer/Editor
+- Prevent uncounterable items from becoming forced range animations
+- Fix Weak Promoted Enemies
+- Modern Character Growths
+- Modify S rank limits
+- 
+
+
+

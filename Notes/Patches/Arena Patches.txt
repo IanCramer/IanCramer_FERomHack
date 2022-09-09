@@ -1,0 +1,13 @@
+Arena Patches
+
+
+
+1. 1 HP in Arena
+
+This is a great patch. If your unit dies in the arena, they do not die in the game. They remain in the game, on the arena with 1 HP.
+
+
+
+
+
+2. 
