@@ -22,9 +22,118 @@ Patches To Explore
 - Passive Boosts Patch (regular and non stack)
 - Growth_Mod
 	Allows for creation of items which increase growth rates (Requires passive boosts patch)
+- Use HandAxs motion as generic
+- HeroesMovement (installer/editor)
+- Icon Display (installer/editor)
+- Character Custom Animation
+- Special Event for each Item (installer/editor)
+- Even in fog, it ensures visibility at specific coordinates
+- Deny Deployment From Preparations (installer/editor)
+- Leader AI Fix
+- Less Annoying Fog
+- MapAddInRange Efficiency Fix
+- Melee and Magic Fix
+- Skip World Map Fix
+- Define Multiple Dancers Installer/Editor)
+- Set the recovery amount of multiple heal staff (installer/editor)
+- Level Cap (Installer/Editor)
+- Change to have multiple units that can seize (installer/editor)
+- Change to have multiple units that can call supply
+- Multiple Vulnarary (installer/editor)
+- Define multiple classes that can discover desert treasures
+- Narrow Font
+- Switch death quote for each unit who is killer
+- NosResire (Setting palette of nosferatu animation)
+- Make NPC (ally) as the third power
+- Clear Demon King's data area
+	If demon king is not used, this makes space for other data
+- Clear opening area
+	If opening sequence is not used, this makes space for other data
+- Switch the preparation shop for each chapter (installer/editor)
+- Range-Animated Weapons List Installer
+- Change image in the upper right of the preparations
+- Expanded the setting of the ring effect used by dancers
+- RNGRandomizer
+- Execute event script instead of support conversation
+- Set whether transporter can be used for each map (installer/editor)
+- Show heal amount
+- DragonVeinEffect
+- GaidenSpellCost
+- Skip the event using the opening world map
+- If you press the A button you will play battle animation at high speed
+- Staff_Heal_EXP
+- Stairs
+- These class force the staff to hit 0%
+- These unit force the staff to hit 0%
+- After rescuing a cavalry, you can drop immediately
+- Allow Forced Units to change their starting position
+- Allow talk menu item to
+	silenced, sleeping, 
+- Autoleveling Prf Weapons
+	To gain weapon experience from prf weapon
+- Change duration of bad status effects
+	5 turns or less or infinite
+- _______ Trap Damage Value
+	Arrow, Fire, Gas, Mine
+- Change show chapter purpose in map confirmation on preparation screen
+- Debug: Change the control of
+	Enemies and/or NPCs; blue units
+- Change Skill Pierce activation rate from LV to Skill
+- Defeat EXP formula Base value 20
+- Enemy Class Grants Bonus EXP Value
+- Bonsu EXP value if
+- DevilAxs: 
+- Do not display place names in save slots
+	Use when no world map (i.e. straight through campaign)
+- Don't draw portrait on item select menu if unit is generic
 
 
 
+Stat Patches !!!
+- Change Max HP limit to use set in class editor
+- Double Maximum Possible Stats
+- Allow class growths over 100%
+	Enemies develop via class growths so this effects enemy growth.
+	Does not effect player growth unless a patch which utilizes class growth is installed.
+
+
+Summoning Patches !!!!
+- Allow to summon multiple classes
+- Allows detailed setting of weapons held by summoned units
+- SummonEXP:
+- EXP Value in dance, steal, Summons, etc.
+- Summon Skill: Edit Summoned Class
+- Don't draw portrait on item select menu if unit is generic
+
+
+
+Skill System Patches
+- Class crit % bonus with SkillSystems
+- AID_AddBaseMountedAidBonus(SkillSystems)
+- AID_AddMoreIfNotFemale(SkillSystems)
+- Always enable Capture(SkillSystems)
+- Slayer effectiveness rework
+- 
+
+
+
+Steal Patches
+- Change to steal weapons and staff that are not equipped
+- Steal with full inventory
+- Allow the player to steal from NPCs
+
+
+
+
+Arena Patches
+- When Battle Arena's Enemy display class name, not unit name
+- Spawn special rare enemies in the arena (installer/editor)
+
+
+
+
+
+Experience Patches
 
 
 
@@ -34,6 +143,9 @@ Patches To Explore
 
 
 
+
+
+Acceleration Patches (a lot, search "Accelerate")
 
 
 

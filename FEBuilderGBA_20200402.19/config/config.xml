@@ -2,7 +2,7 @@
 <root>
   <item>
     <key>LastUpdateCheck</key>
-    <value>20220906</value>
+    <value>20220911</value>
   </item>
   <item>
     <key>func_lang</key>
@@ -185,12 +185,11 @@
   </item>
   <item>
     <key>ShortCutKey7</key>
-    <value>
-    </value>
+    <value>Ctrl+S</value>
   </item>
   <item>
     <key>ShortCutValue7</key>
-    <value>0</value>
+    <value>17</value>
   </item>
   <item>
     <key>ShortCutKey8</key>
@@ -373,7 +372,7 @@
   </item>
   <item>
     <key>Last_Rom_Filename</key>
-    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\ROMs\Sacred Stones\Fire Emblem Sacred Stones.GBA</value>
+    <value>C:\Users\oselgrad\Desktop\IanCramer_FERomHack\ROMs\Sacred Stones\French Vanilla\French Vanilla.gba</value>
   </item>
   <item>
     <key>midfix4agb</key>
