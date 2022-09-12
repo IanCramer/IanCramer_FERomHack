@@ -25,7 +25,7 @@ Minor Changes:
 
 1. Poison sword is now weapon level E (other poison weapons already were)
 2. Longbow is now weapon level C.
-3. 
+3. Several arenas were added and made replayable in skirmishable maps
 
 
 

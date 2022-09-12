@@ -239,3 +239,4 @@ Installed the patch "(Debug: Change the control of enemies and/or NPCs)". PATCH_
 0x01545A@1 0x01545B@1 0x01545C@1 0x01545D@1 0x01545E@1 0x01545F@1 Write:Patches Debug: Change the control of enemies and/or NPCs (PatchForm) Debug: Change the control of enemies and/or NPCs 20220911000825
 Installed the patch "(Debug: Change the control of enemies and/or NPCs)". PATCH_Change the control of enemies and NPCs PATCH APPLY.
 0x01545A@1 0x01545B@1 0x01545C@1 0x01545D@1 0x01545E@1 0x01545F@1 Write:Patches Debug: Change the control of enemies and/or NPCs (PatchForm) Debug: Change the control of enemies and/or NPCs 20220911003716
+InitSystem: French Vanilla.gba ver: FE8U length: 1009E84 FEBuilderGBA: 20220910.12
