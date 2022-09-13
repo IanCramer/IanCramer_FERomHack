@@ -1723,3 +1723,127 @@ Are you sure you want to move 2D Iron Bow to the position of 03 Steel Sword?
 Are you sure you want to move 03 Steel Sword to the position of 16 Steel Lance?
 0x0100A15C@18 0x0100A15A@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913014357
 0x0100A158@2 Write:Shops/Armories  (ItemShopForm) @14 Iron Lance 20220913014412
+InitSystem: French Vanilla.gba ver: FE8U length: 100A0FC FEBuilderGBA: 20220910.12
+0xA3EFC4@2 Write:Shops/Armories  (ItemShopForm) @20 Steel Axe 20220913030536
+0xA3EFC6@2 Write:Shops/Armories  (ItemShopForm) @28 Hand Axe 20220913030544
+Are you sure you want to move 03 Steel Sword to the position of 02 Slim Sword?
+0xA3EFD2@2 0xA3EFD0@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030600
+0xA3EFD2@2 Write:Shops/Armories  (ItemShopForm) @02 Slim Sword 20220913030622
+0xA3EFD4@2 Write:Shops/Armories  (ItemShopForm) @14 Iron Lance 20220913030633
+Are you sure you want to move 16 Steel Lance to the position of 15 Slim Lance?
+0xA3EFD8@2 0xA3EFD6@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030638
+Are you sure you want to move 16 Steel Lance to the position of 15 Slim Lance?
+0xA3EFD6@2 0xA3EFD8@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030649
+0xA3EFD6@2 Write:Shops/Armories  (ItemShopForm) @15 Slim Lance 20220913030703
+0x0100A0FC@20 0x20615C@4 0xA3EFCE@20 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913030712
+Are you sure you want to move 01 Iron Sword to the position of 1F Iron Axe?
+0x0100A10A@8 0x0100A108@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030719
+Are you sure you want to move 01 Iron Sword to the position of 1F Iron Axe?
+0x0100A10C@8 0x0100A10A@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030725
+Are you sure you want to move 01 Iron Sword to the position of 1F Iron Axe?
+0x0100A10E@8 0x0100A10C@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030730
+Are you sure you want to move 01 Iron Sword to the position of 2D Iron Bow?
+0x0100A114@4 0x0100A112@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030741
+Are you sure you want to move 01 Iron Sword to the position of 2D Iron Bow?
+0x0100A116@4 0x0100A114@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030746
+0x0100A0FC@30 0x20615C@4 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913030757
+Are you sure you want to move 01 Iron Sword to the position of 2D Iron Bow?
+0x0100A118@4 0x0100A116@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913030803
+0x0100A108@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913030819
+0x0100A10A@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913030948
+0x0100A10C@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913030956
+0x0100A112@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913031021
+0x0100A114@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913031033
+0x0100A116@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913031042
+0x0100A11C@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913031122
+0x0100A11E@2 Write:Shops/Armories  (ItemShopForm) @01 Iron Sword 20220913031130
+0x8B09B8@148 0x1B743C@403 0x8B3668@4 0x8B3668@4 Write:Map Editor  (MapEditorForm) =Ch2 The Protected  20220913031225
+0x8B0AE0@148 0x1B715C@375 0x8B3690@4 0x8B3690@4 Write:Map Editor  (MapEditorForm) =Ch4 Ancient Horrors  20220913031308
+0x8B0C9C@148 0x1B6A0C@944 0x8B36C4@4 0x8B36C4@4 Write:Map Editor  (MapEditorForm) =Ch6 Victims of War  20220913031453
+Your data changes in this form haven't been written to the ROM. Close anyway?
+0xA3EFEE@2 Write:Shops/Armories  (ItemShopForm) @14 Iron Lance 20220913032133
+0x0100A7EC@24 0x2061DC@4 0xA3EFEA@24 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913032142
+Are you sure you want to move 03 Steel Sword to the position of 16 Steel Lance?
+0x0100A7F4@18 0x0100A7F2@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032147
+Are you sure you want to move 33 Short Bow to the position of 16 Steel Lance?
+0x0100A7F6@16 0x0100A7F4@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032152
+0x0100A7F2@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032210
+0x0100A7F4@2 Write:Shops/Armories  (ItemShopForm) @33 Short Bow 20220913032222
+Are you sure you want to move 03 Steel Sword to the position of 1F Iron Axe?
+0x0100A7FC@12 0x0100A7FA@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032232
+Are you sure you want to move 03 Steel Sword to the position of 1F Iron Axe?
+0x0100A7FE@12 0x0100A7FC@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032240
+0x0100A7FA@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032252
+0x0100A7FC@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032303
+Are you sure you want to move 20 Steel Axe to the position of 1F Iron Axe?
+0x0100A800@2 0x0100A7FE@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032311
+Are you sure you want to move 1F Iron Axe to the position of 28 Hand Axe?
+0x0100A800@4 0x0100A804@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032317
+Are you sure you want to move 28 Hand Axe to the position of 26 Hammer?
+0x0100A802@2 0x0100A800@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032322
+0x0100A804@2 Write:Shops/Armories  (ItemShopForm) @1F Iron Axe 20220913032336
+Are you sure you want to move 2E Steel Bow to the position of 2D Iron Bow?
+0x0100A808@2 0x0100A806@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032346
+0x0100A808@2 Write:Shops/Armories  (ItemShopForm) @2D Iron Bow 20220913032358
+0x0100A80C@8 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913032409
+0xA3F012@2 Write:Shops/Armories  (ItemShopForm) @14 Iron Lance 20220913032500
+0x0100A818@24 0x20629C@4 0xA3F00E@24 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913032509
+Are you sure you want to move 33 Short Bow to the position of 16 Steel Lance?
+0x0100A820@16 0x0100A81E@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032513
+Are you sure you want to move 33 Short Bow to the position of 03 Steel Sword?
+0x0100A81E@18 0x0100A830@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032521
+Are you sure you want to move 03 Steel Sword to the position of 16 Steel Lance?
+0x0100A820@16 0x0100A81E@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032526
+0x0100A81E@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032536
+Are you sure you want to move 03 Steel Sword to the position of 1F Iron Axe?
+0x0100A826@14 0x0100A824@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032548
+0x0100A824@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032645
+Are you sure you want to move 03 Steel Sword to the position of 20 Steel Axe?
+0x0100A82A@12 0x0100A828@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032656
+0x0100A826@2 Write:Shops/Armories  (ItemShopForm) @1F Iron Axe 20220913032708
+0x0100A828@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913032720
+Are you sure you want to move 28 Hand Axe to the position of 26 Hammer?
+0x0100A82E@2 0x0100A82C@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032724
+0x0100A830@2 Write:Shops/Armories  (ItemShopForm) @2D Iron Bow 20220913032739
+0x0100A838@26 0x20635C@4 0xA3F032@26 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913032936
+Are you sure you want to move 03 Steel Sword to the position of 02 Slim Sword?
+0x0100A83A@2 0x0100A838@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913032947
+0x0100A83A@2 Write:Shops/Armories  (ItemShopForm) @02 Slim Sword 20220913033015
+0x0100A85C@32 0x20635C@4 0x0100A838@32 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913033031
+Are you sure you want to move 02 Slim Sword to the position of 15 Slim Lance?
+0x0100A864@20 0x0100A862@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033036
+0x0100A862@2 Write:Shops/Armories  (ItemShopForm) @02 Slim Sword 20220913033046
+0x0100A864@2 Write:Shops/Armories  (ItemShopForm) @15 Slim Lance 20220913033059
+Are you sure you want to move 02 Slim Sword to the position of 16 Steel Lance?
+0x0100A868@18 0x0100A866@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033105
+0x0100A866@2 Write:Shops/Armories  (ItemShopForm) @02 Slim Sword 20220913033114
+Are you sure you want to move 02 Slim Sword to the position of 20 Steel Axe?
+0x0100A870@12 0x0100A86E@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033150
+Are you sure you want to move 03 Steel Sword to the position of 20 Steel Axe?
+0x0100A872@12 0x0100A870@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033155
+Are you sure you want to move 03 Steel Sword to the position of 2E Steel Bow?
+0x0100A87A@6 0x0100A878@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033206
+Are you sure you want to move 03 Steel Sword to the position of 2E Steel Bow?
+0x0100A87C@6 0x0100A87A@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033212
+0x0100A86E@2 Write:Shops/Armories  (ItemShopForm) @02 Slim Sword 20220913033241
+0x0100A870@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913033257
+0x0100A878@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913033318
+0x0100A87A@2 Write:Shops/Armories  (ItemShopForm) @03 Steel Sword 20220913033329
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913033337
+0xA3F054@2 Write:Shops/Armories  (ItemShopForm) @0D Killing Edge 20220913033416
+0xA3F056@2 Write:Shops/Armories  (ItemShopForm) @12 Lancereaver 20220913033430
+Are you sure you want to move 1E Axereaver to the position of 17 Silver Lance?
+0xA3F05A@4 0xA3F058@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033443
+0xA3F058@2 Write:Shops/Armories  (ItemShopForm) @1E Axereaver 20220913033452
+0xA3F062@2 Write:Shops/Armories  (ItemShopForm) @2A Swordreaver 20220913033521
+Are you sure you want to move 1D Spear to the position of 1A Killer Lance?
+0xA3F05E@6 0xA3F05C@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033524
+0xA3F05E@2 Write:Shops/Armories  (ItemShopForm) @1A Killer Lance 20220913033541
+0xA3F062@2 Write:Shops/Armories  (ItemShopForm) @24 Killer Axe 20220913033606
+0xA3F068@2 Write:Shops/Armories  (ItemShopForm) @33 Short Bow 20220913033626
+Are you sure you want to move 23 Brave Axe to the position of 2F Silver Bow?
+0xA3F066@4 0xA3F064@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033630
+Are you sure you want to move 34 Longbow to the position of 31 Killer Bow?
+0xA3F06A@2 0xA3F068@2 Write:Shops/Armories  (ItemShopForm) D&D 20220913033634
+0xA3F06A@2 Write:Shops/Armories  (ItemShopForm) @31 Killer Bow 20220913033646
+0x0100A888@38 0x20635C@4 0x0100A85C@38 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area French Vanilla.gba  20220913033722
