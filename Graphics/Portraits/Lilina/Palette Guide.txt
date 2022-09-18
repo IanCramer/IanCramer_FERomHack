@@ -1,0 +1,31 @@
+1: Background
+ 
+2: Outlines
+
+3: Inlines
+
+4: Shadows
+
+5: Headband detail
+
+6: Headband Main 1
+
+7: Skin 1
+
+8: Headband Main 2
+
+9: Hair 1
+
+10: Hair Headband Border
+
+11: Hair 2
+
+12: Hair 3
+
+13: Skin 2
+
+14: Skin 3
+
+15: Sleeve and Eyes
+
+16: Clothing and Eyes
