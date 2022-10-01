@@ -1,0 +1,14 @@
+
+
+The goal with stats is to make your "0 to hero" characters your best characters. That is, training should pay off immensely. However, grinding is tiresome and tedious and nobody likes to do it. To that end:
+
+1. Dramatic growth rates. "0 to Hero" characters will enjoy multiple growth rates over 100% while lesser developing characters will have much lower growth rates with much higher starting stats.
+
+2. Fewer levels. The max level for an unpromoted unit will be 13, while the max level for a promoted unit will be 10. Units will be able to promote starting at level 5.
+
+3. From levels 8 to 13 all characters will be learn incredible skills. More details below.
+
+4. Trememndous promotion gains. This reduces the degree of randomness in the equation and simultaneously provides a huge boost to unpromoted characters making them worth training and promoting.
+
+
+Learned Skills
