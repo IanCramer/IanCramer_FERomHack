@@ -2123,3 +2123,255 @@ InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928
 0x803E9C@52 Write:Character Editor  (UnitForm) @07 Ross 20221002192831
 InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928.13
 InitSystem: FE7 - Road to Ruin.gba ver: FE7U length: 14A9A18 FEBuilderGBA: 20220928.13
+Sappy is written in Visual Basic 6, so you need to install the runtime.
+Launch the runtime installer.
+System.ComponentModel.Win32Exception (0x80004005): The operation was canceled by the user
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at FEBuilderGBA.ToolInitWizardForm.RunSappyInstaller(String dir)
+InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928.13
+0x0E8646@13 Write:Source  (TextForm) =TEXT:43  20221003130231
+0xB2A8DE@1 0xB2A8DF@1 Write:Character Editor  (UnitForm) MagicExtends 20221003130238
+0x80673C@52 Write:Character Editor  (UnitForm) @CF Enemy 20221003130238
+0x01000120@4 0x0E8667@4 Write:Source  (TextForm) =TEXT:48  20221003130325
+0xB2A8DE@1 0xB2A8DF@1 Write:Character Editor  (UnitForm) MagicExtends 20221003130330
+0x80673C@52 Write:Character Editor  (UnitForm) @CF Olivia 20221003130330
+0x0100B7F0@4844 0x5524@4 0x8ACBC4@4844 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003130349
+0xB2A8DE@1 0xB2A8DF@1 Write:Character Editor  (UnitForm) MagicExtends 20221003130357
+0x80673C@52 Write:Character Editor  (UnitForm) @CF Olivia 20221003130357
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Portraits\Lilina\Olivia.png
+0x0100D3F0@4100 0x0100E3F4@412 0x0100E590@32 0x0100E5B0@1536 Write:Portrait Editor  (ImagePortraitForm)  20221003130414
+0x0100CADC@28 Write:Portrait Editor  (ImagePortraitForm) @AD Olivia 20221003130414
+0x0100CADC@28 Write:Portrait Editor  (ImagePortraitForm) @AD Olivia 20221003130442
+Extension of the Class list can cause various problems.
+It should not be done outside of specific cases.
+If you still want to extend this data, please apply the following patch (ExModularSave) to avoid some problems.
+
+The patch makes it possible to record class IDs 0x80 and later in the save data.
+The Extended Moving Map Animation patch enables map animations after 0x80 (ExtendedtoMovingMapAnimation0xFF)
+
+Are you sure you want to extend the class list?
+
+0x0100EBB0@10752 0x017AB8@4 0x017DBC@4 0x018DAC@4 0x019458@4 0x807110@10752 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003130802
+0x010115B4@1 0x010115E4@4 0x01011608@1 0x01011638@4 0x0101165C@1 0x0101168C@4 0x010116B0@1 0x010116E0@4 0x01011704@1 0x01011734@4 0x01011758@1 0x01011788@4 0x010117AC@1 0x010117DC@4 0x01011800@1 0x01011830@4 0x01011854@1 0x01011884@4 0x010118A8@1 0x010118D8@4 0x010118FC@1 0x0101192C@4 0x01011950@1 0x01011980@4 0x010119A4@1 0x010119D4@4 0x010119F8@1 0x01011A28@4 0x01011A4C@1 0x01011A7C@4 0x01011AA0@1 0x01011AD0@4 0x01011AF4@1 0x01011B24@4 0x01011B48@1 0x01011B78@4 0x01011B9C@1 0x01011BCC@4 0x01011BF0@1 0x01011C20@4 0x01011C44@1 0x01011C74@4 0x01011C98@1 0x01011CC8@4 0x01011CEC@1 0x01011D1C@4 0x01011D40@1 0x01011D70@4 0x01011D94@1 0x01011DC4@4 0x01011DE8@1 0x01011E18@4 0x01011E3C@1 0x01011E6C@4 0x01011E90@1 0x01011EC0@4 0x01011EE4@1 0x01011F14@4 0x01011F38@1 0x01011F68@4 0x01011F8C@1 0x01011FBC@4 0x01011FE0@1 0x01012010@4 0x01012034@1 0x01012064@4 0x01012088@1 0x010120B8@4 0x010120DC@1 0x0101210C@4 0x01012130@1 0x01012160@4 0x01012184@1 0x010121B4@4 0x010121D8@1 0x01012208@4 0x0101222C@1 0x0101225C@4 0x01012280@1 0x010122B0@4 0x010122D4@1 0x01012304@4 0x01012328@1 0x01012358@4 0x0101237C@1 0x010123AC@4 0x010123D0@1 0x01012400@4 0x01012424@1 0x01012454@4 0x01012478@1 0x010124A8@4 0x010124CC@1 0x010124FC@4 0x01012520@1 0x01012550@4 0x01012574@1 0x010125A4@4 0x010125C8@1 0x010125F8@4 0x0101261C@1 0x0101264C@4 0x01012670@1 0x010126A0@4 0x010126C4@1 0x010126F4@4 0x01012718@1 0x01012748@4 0x0101276C@1 0x0101279C@4 0x010127C0@1 0x010127F0@4 0x01012814@1 0x01012844@4 0x01012868@1 0x01012898@4 0x010128BC@1 0x010128EC@4 0x01012910@1 0x01012940@4 0x01012964@1 0x01012994@4 0x010129B8@1 0x010129E8@4 0x01012A0C@1 0x01012A3C@4 0x01012A60@1 0x01012A90@4 0x01012AB4@1 0x01012AE4@4 0x01012B08@1 0x01012B38@4 0x01012B5C@1 0x01012B8C@4 0x01012BB0@1 0x01012BE0@4 0x01012C04@1 0x01012C34@4 0x01012C58@1 0x01012C88@4 0x01012CAC@1 0x01012CDC@4 0x01012D00@1 0x01012D30@4 0x01012D54@1 0x01012D84@4 0x01012DA8@1 0x01012DD8@4 0x01012DFC@1 0x01012E2C@4 0x01012E50@1 0x01012E80@4 0x01012EA4@1 0x01012ED4@4 0x01012EF8@1 0x01012F28@4 0x01012F4C@1 0x01012F7C@4 0x01012FA0@1 0x01012FD0@4 0x01012FF4@1 0x01013024@4 0x01013048@1 0x01013078@4 0x0101309C@1 0x010130CC@4 0x010130F0@1 0x01013120@4 0x01013144@1 0x01013174@4 0x01013198@1 0x010131C8@4 0x010131EC@1 0x0101321C@4 0x01013240@1 0x01013270@4 0x01013294@1 0x010132C4@4 0x010132E8@1 0x01013318@4 0x0101333C@1 0x0101336C@4 0x01013390@1 0x010133C0@4 0x010133E4@1 0x01013414@4 0x01013438@1 0x01013468@4 0x0101348C@1 0x010134BC@4 0x010134E0@1 0x01013510@4 0x01013534@1 0x01013564@4 0x01013588@1 0x010135B8@4 0x010135DC@1 0x0101360C@4 0x01013630@1 0x01013660@4 0x01013684@1 0x010136B4@4 0x010136D8@1 0x01013708@4 0x0101372C@1 0x0101375C@4 0x01013780@1 0x010137B0@4 0x010137D4@1 0x01013804@4 0x01013828@1 0x01013858@4 0x0101387C@1 0x010138AC@4 0x010138D0@1 0x01013900@4 0x01013924@1 0x01013954@4 0x01013978@1 0x010139A8@4 0x010139CC@1 0x010139FC@4 0x01013A20@1 0x01013A50@4 0x01013A74@1 0x01013AA4@4 0x01013AC8@1 0x01013AF8@4 0x01013B1C@1 0x01013B4C@4 0x01013B70@1 0x01013BA0@4 0x01013BC4@1 0x01013BF4@4 0x01013C18@1 0x01013C48@4 0x01013C6C@1 0x01013C9C@4 0x01013CC0@1 0x01013CF0@4 0x01013D14@1 0x01013D44@4 0x01013D68@1 0x01013D98@4 0x01013DBC@1 0x01013DEC@4 0x01013E10@1 0x01013E40@4 0x01013E64@1 0x01013E94@4 0x01013EB8@1 0x01013EE8@4 0x01013F0C@1 0x01013F3C@4 0x95DFA4@256 0x0CC7D0@4 0x0CC824@4 0x0CC860@4 0x0CC8A4@4 0x0CC8EC@4 0x0CCE8C@4 0x0CDB74@4 0x01013FB0@256 0x010140B0@2 0x010140B2@2 0x010140B4@2 0x010140B6@2 0x010140B8@2 0x010140BA@2 0x010140BC@2 0x010140BE@2 0x010140C0@2 0x010140C2@2 0x010140C4@2 0x010140C6@2 0x010140C8@2 0x010140CA@2 0x010140CC@2 0x010140CE@2 0x010140D0@2 0x010140D2@2 0x010140D4@2 0x010140D6@2 0x010140D8@2 0x010140DA@2 0x010140DC@2 0x010140DE@2 0x010140E0@2 0x010140E2@2 0x010140E4@2 0x010140E6@2 0x010140E8@2 0x010140EA@2 0x010140EC@2 0x010140EE@2 0x010140F0@2 0x010140F2@2 0x010140F4@2 0x010140F6@2 0x010140F8@2 0x010140FA@2 0x010140FC@2 0x010140FE@2 0x01014100@2 0x01014102@2 0x01014104@2 0x01014106@2 0x01014108@2 0x0101410A@2 0x0101410C@2 0x0101410E@2 0x01014110@2 0x01014112@2 0x01014114@2 0x01014116@2 0x01014118@2 0x0101411A@2 0x0101411C@2 0x0101411E@2 0x01014120@2 0x01014122@2 0x01014124@2 0x01014126@2 0x01014128@2 0x0101412A@2 0x0101412C@2 0x0101412E@2 0x01014130@2 0x01014132@2 0x01014134@2 0x01014136@2 0x01014138@2 0x0101413A@2 0x0101413C@2 0x0101413E@2 0x01014140@2 0x01014142@2 0x01014144@2 0x01014146@2 0x01014148@2 0x0101414A@2 0x0101414C@2 0x0101414E@2 0x01014150@2 0x01014152@2 0x01014154@2 0x01014156@2 0x01014158@2 0x0101415A@2 0x0101415C@2 0x0101415E@2 0x01014160@2 0x01014162@2 0x01014164@2 0x01014166@2 0x01014168@2 0x0101416A@2 0x0101416C@2 0x0101416E@2 0x01014170@2 0x01014172@2 0x01014174@2 0x01014176@2 0x01014178@2 0x0101417A@2 0x0101417C@2 0x0101417E@2 0x01014180@2 0x01014182@2 0x01014184@2 0x01014186@2 0x01014188@2 0x0101418A@2 0x0101418C@2 0x0101418E@2 0x01014190@2 0x01014192@2 0x01014194@2 0x01014196@2 0x01014198@2 0x0101419A@2 0x0101419C@2 0x0101419E@2 0x010141A0@2 0x010141A2@2 0x010141A4@2 0x010141A6@2 0x010141A8@2 0x010141AA@2 0x010141AC@2 0x95DFA4@256 0x0CC7C8@4 0x9A2E00@1016 0x079584@4 0x079598@4 0x0BAC2C@4 0x0BAC40@4 0x010141B0@1016 0x010145A8@8 0x010145B0@8 0x010145B8@8 0x010145C0@8 0x010145C8@8 0x010145D0@8 0x010145D8@8 0x010145E0@8 0x010145E8@8 0x010145F0@8 0x010145F8@8 0x01014600@8 0x01014608@8 0x01014610@8 0x01014618@8 0x01014620@8 0x01014628@8 0x01014630@8 0x01014638@8 0x01014640@8 0x01014648@8 0x01014650@8 0x01014658@8 0x01014660@8 0x01014668@8 0x01014670@8 0x01014678@8 0x01014680@8 0x01014688@8 0x01014690@8 0x01014698@8 0x010146A0@8 0x010146A8@8 0x010146B0@8 0x010146B8@8 0x010146C0@8 0x010146C8@8 0x010146D0@8 0x010146D8@8 0x010146E0@8 0x010146E8@8 0x010146F0@8 0x010146F8@8 0x01014700@8 0x01014708@8 0x01014710@8 0x01014718@8 0x01014720@8 0x01014728@8 0x01014730@8 0x01014738@8 0x01014740@8 0x01014748@8 0x01014750@8 0x01014758@8 0x01014760@8 0x01014768@8 0x01014770@8 0x01014778@8 0x01014780@8 0x01014788@8 0x01014790@8 0x01014798@8 0x010147A0@8 0x010147A8@8 0x010147B0@8 0x010147B8@8 0x010147C0@8 0x010147C8@8 0x010147D0@8 0x010147D8@8 0x010147E0@8 0x010147E8@8 0x010147F0@8 0x010147F8@8 0x01014800@8 0x01014808@8 0x01014810@8 0x01014818@8 0x01014820@8 0x01014828@8 0x01014830@8 0x01014838@8 0x01014840@8 0x01014848@8 0x01014850@8 0x01014858@8 0x01014860@8 0x01014868@8 0x01014870@8 0x01014878@8 0x01014880@8 0x01014888@8 0x01014890@8 0x01014898@8 0x010148A0@8 0x010148A8@8 0x010148B0@8 0x010148B8@8 0x010148C0@8 0x010148C8@8 0x010148D0@8 0x010148D8@8 0x010148E0@8 0x010148E8@8 0x010148F0@8 0x010148F8@8 0x01014900@8 0x01014908@8 0x01014910@8 0x01014918@8 0x01014920@8 0x01014928@8 0x01014930@8 0x01014938@8 0x01014940@8 0x01014948@8 0x01014950@8 0x01014958@8 0x01014960@8 0x01014968@8 0x01014970@8 0x01014978@8 0x01014980@8 0x01014988@8 0x01014990@8 0x01014998@8 0x010149A0@8 0x9A2E00@1016 Write:Class Editor  (ClassForm) ClearBattleAnimationPointer 20221003130802
+0x010149B0@856 0x026730@4 0x0267B0@4 0x026838@4 0x026C88@4 0x0272D0@4 0x027BB0@4 0x027C9C@4 0x027D48@4 0x027E0C@4 0x027E9C@4 0x027F74@4 0x028064@4 0x8AF880@856 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003130835
+0xB2AB40@1 0xB2AB41@1 0xB2AB42@1 0xB2AB43@1 Write:Class Editor  (ClassForm) MagicExtends 20221003130949
+0x010115B0@84 Write:Class Editor  (ClassForm) @80 Lord 20221003130949
+0xB2AB40@1 0xB2AB41@1 0xB2AB42@1 0xB2AB43@1 Write:Class Editor  (ClassForm) MagicExtends 20221003131004
+0x010115B0@84 Write:Class Editor  (ClassForm) @80 Lord 20221003131004
+0xB2AB40@1 0xB2AB41@1 0xB2AB42@1 0xB2AB43@1 Write:Class Editor  (ClassForm) MagicExtends 20221003131010
+0x010115B0@84 Write:Class Editor  (ClassForm) @80 Lord 20221003131010
+You can not write to address 0-0x0DB000.
+The address you tried to write: 0x00.
+The data in this area is fragile - editing may break the ROM.
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003131128
+0x01014DB8@1 0x01014DB9@1 0x01014DBA@2 0x01014DBC@1 0x01014DBD@1 0x01014DBE@2 0x01014DC0@1 0x01014DC1@1 0x01014DC2@2 0x01014DC4@1 0x01014DC5@1 0x01014DC6@2 0x01014DC8@1 0x01014DC9@1 0x01014DCA@2 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131128
+0x010115E4@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131128
+0x01014DD0@6432 0x059BD8@4 0x05A600@4 0x05A694@4 0x05A82C@4 0x06F6A8@4 0x070940@4 0x070A60@4 0xC00008@6432 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003131140
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Unarmed\Unarmed.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Unarmed\Unarmed Sheet 2.png
+0x01016DD0@300 0x01016704@4 0x01016EFC@308 0x01016708@4 0x01017030@76 0x0101670C@4 0x0101707C@2544 0x01017A6C@168 0x01016700@4 0x01017B14@48 0x010166FC@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Unarmed.bin 20221003131212
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Transform.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Transform Sheet 8.png
+0x01017B44@1988 0x01016724@4 0x01018308@1996 0x01016728@4 0x01018AD4@92 0x0101672C@4 0x01018B30@1972 0x010192E4@2916 0x01019E48@1904 0x0101A5B8@2416 0x0101AF28@1984 0x0101B6E8@3148 0x0101C334@3332 0x0101D038@228 0x01016720@4 0x0101D11C@48 0x0101671C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Transform.bin 20221003131238
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Dragonstone.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Dragonstone Sheet 8.png
+0x0101D14C@1624 0x01016744@4 0x0101D7A4@1648 0x01016748@4 0x0101DE14@52 0x0101674C@4 0x0101DE48@4568 0x0101F020@4356 0x01020124@4156 0x01021160@4008 0x01022108@4300 0x010231D4@3512 0x01023F8C@2692 0x01024A10@484 0x01016740@4 0x01024BF4@48 0x0101673C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Dragonstone.bin 20221003131246
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Revert.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Dragon\8. Dragonstone\Revert Sheet 7.png
+0x01024C24@1732 0x01016764@4 0x010252E8@1748 0x01016768@4 0x010259BC@92 0x0101676C@4 0x01025A18@3332 0x0102671C@3148 0x01027368@1984 0x01027B28@2416 0x01028498@3352 0x010291B0@2760 0x01029C78@236 0x01016760@4 0x01029D64@48 0x0101675C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Revert.bin 20221003131250
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Weapons\1. Sword (Flashy crit)\Sword.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Weapons\1. Sword (Flashy crit)\Sword Sheet 8.png
+0x01029D94@2496 0x01016784@4 0x0102A754@2500 0x01016788@4 0x0102B118@76 0x0101678C@4 0x0102B164@3544 0x0102BF3C@3660 0x0102CD88@3564 0x0102DB74@3236 0x0102E818@1280 0x0102ED18@2844 0x0102F834@1648 0x0102FEA4@1040 0x01016780@4 0x010302B4@48 0x0101677C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Sword.bin 20221003131303
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Weapons\6. Magic\Magic.bin
+There is no file.
+File name: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Graphics\Unit Animations\Manaketes\Tiki_Weapons\6. Magic\Magic Sheet 4.png
+0x010302E4@964 0x010167A4@4 0x010306A8@980 0x010167A8@4 0x01030A7C@76 0x010167AC@4 0x01030AC8@4128 0x01031AE8@3544 0x010328C0@1360 0x01032E10@448 0x010167A0@4 0x01032FD0@48 0x0101679C@4 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnimeOnFEditorSerialize Magic.bin 20221003131314
+0x01014DB8@4 Write:Battle Animations  (ImageBattleAnimeForm) @01 Sword 20221003131402
+0x01014DBC@4 Write:Battle Animations  (ImageBattleAnimeForm) @01 Sword 20221003131447
+0x01014DC0@4 Write:Battle Animations  (ImageBattleAnimeForm) @01 Sword 20221003131456
+0x01014DC4@4 Write:Battle Animations  (ImageBattleAnimeForm) @01 Sword 20221003131503
+0x01014DC8@4 Write:Battle Animations  (ImageBattleAnimeForm) @01 Sword 20221003131511
+0x01033000@20 0x010115E4@4 0x01014DB8@20 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003131519
+Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131519
+0x010115E4@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131519
+0x01033014@4 Write:Battle Animations  (ImageBattleAnimeForm) @CE Sword 20221003131538
+Are you sure you want to move CE Item to the position of CE Sword?
+0x01033004@20 0x01033000@4 Write:Battle Animations  (ImageBattleAnimeForm) D&D 20221003131541
+0x01033000@4 Write:Battle Animations  (ImageBattleAnimeForm) @CE Item 20221003131553
+0x01033000@24 0x010115E4@4 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003131601
+Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131601
+0x010115E4@4 Write:Battle Animations  (ImageBattleAnimeForm) FixBattleAnimeSetting 20221003131601
+0x01033018@4 Write:Battle Animations  (ImageBattleAnimeForm) @CA Item 20221003131655
+Are you sure you want to move CA Dragonstone to the position of CE Sword?
+0x01033008@20 0x01033004@4 Write:Battle Animations  (ImageBattleAnimeForm) D&D 20221003131658
+0x01017030@76 0x0101670C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09017030  20221003132006
+0x01018AD4@92 0x0101672C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09018AD4  20221003132145
+0x010259BC@92 0x0101676C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x090259BC  20221003132241
+0x0102B118@76 0x0101678C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x0902B118  20221003132324
+0x01033158@92 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09033158  20221003132417
+0x01033158@92 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09033158  20221003132426
+0x01033158@92 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09033158  20221003132505
+0x010330EC@107 0x0101676C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x090330EC  20221003132520
+0x010331B4@108 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x090331B4  20221003132559
+0x0103307C@112 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x0903307C  20221003132613
+0x0103307C@112 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x0903307C  20221003132758
+0x0103307C@112 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x0903307C  20221003132828
+0x01033020@91 0x0101670C@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09033020  20221003132903
+0x01030A7C@76 0x010167AC@4 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x09030A7C  20221003132928
+0x0103327C@92 Write:Battle Animation Palette  (ImageBattleAnimePalletForm) =PALETTE 0x0903327C  20221003133006
+Your data changes in this form haven't been written to the ROM. Close anyway?
+0x010302E4@964 0x010167A4@4 0x010328C0@980 0x010167A8@4 0x01032E10@92 0x010167AC@4 0x01030AC8@4128 0x010332D8@3544 0x01031AE8@1360 0x010306A8@448 0x010167A0@4 0x01032FD0@48 0x0101679C@4 0x0103327C@90 0x01032E6C@355 0x01030868@530 0x01032C94@379 0x01032038@2181 Write:Battle Animations  (ImageBattleAnimeForm) =ImportBattleAnime anime.txt 20221003140038
+0x0100B79C@112 Write:Source  (TextForm) =TEXT:48  20221003140411
+0xB2A8DE@1 0xB2A8DF@1 Write:Character Editor  (UnitForm) MagicExtends 20221003140459
+0x80673C@52 Write:Character Editor  (UnitForm) @CF Olivia 20221003140459
+Your data changes in this form haven't been written to the ROM. Close anyway?
+0x8B3C0C@8 Write:Unit Placer  (EventUnitForm)  20221003140553
+0x8B3C78@20 Write:Unit Placer  (EventUnitForm) @Soldier(Fighter)  Lv:2 20221003140553
+0x8B3BFC@8 Write:Unit Placer  (EventUnitForm)  20221003140557
+0x8B3C50@20 Write:Unit Placer  (EventUnitForm) @O'Neill(Fighter)  Lv:4 20221003140557
+0x8B4018@8 Write:Unit Placer  (EventUnitForm)  20221003140616
+0x8B40DC@20 Write:Unit Placer  (EventUnitForm) @Breguet(Knight)  Lv:4 20221003140616
+0x8B427C@8 Write:Unit Placer  (EventUnitForm)  20221003140636
+0x8B436C@20 Write:Unit Placer  (EventUnitForm) @Bone(Brigand)  Lv:4 20221003140636
+0x8B451C@8 Write:Unit Placer  (EventUnitForm)  20221003140659
+0x8B463C@20 Write:Unit Placer  (EventUnitForm) @Bazba(Brigand)  Lv:6 20221003140659
+0x8B4B98@20 Write:Unit Placer  (EventUnitForm) @Monster(Entombed)  Lv:1 20221003140754
+0x8B5B04@20 Write:Unit Placer  (EventUnitForm) @Zonta(Mercenary)  Lv:8 20221003140816
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+Changes not saved. Discard and load new map?
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x010340B0@48 0x8B3654@4 Write:Map Editor  (MapEditorForm) =Resize MapChange 0 3 20221003140914
+0x8B0890@148 0x1B76F4@308 0x8B364C@4 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003140914
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003140915
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003140915
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003140916
+Changes not saved. Discard and load new map?
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010340E0@452 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003141007
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003141007
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003141007
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003141007
+Do you include Tile Changes in the content you save?
+If "Yes", it outputs Tile Changes as well.
+If "No", only the current map will be output.
+
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010340E0@452 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143802
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143802
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143802
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143802
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra2.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010340E0@488 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143819
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143819
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143819
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143819
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010340E0@487 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143829
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143829
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143829
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143830
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra2.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010340E0@452 0x8B364C@4 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143839
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143840
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143840
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143841
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra2.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+Changes not saved. Discard and load new map?
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010342C8@487 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143855
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143855
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143855
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003143855
+Do you include Tile Changes in the content you save?
+If "Yes", it outputs Tile Changes as well.
+If "No", only the current map will be output.
+
+0x010340B0@12 Write:Tile Changes  (MapChangeForm) @00 20221003150654
+0x010340BC@12 Write:Tile Changes  (MapChangeForm) @01 20221003150703
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra2.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010342C8@452 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003150729
+0x010340B0@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003150729
+0x010340BC@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003150729
+0x010340C8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003150729
+0x010340B0@12 Write:Tile Changes  (MapChangeForm) @00 20221003150750
+0x010340BC@12 Write:Tile Changes  (MapChangeForm) @01 20221003150810
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003150832
+Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003150832
+0x010344B0@24 0x8B3654@4 0x010340B0@24 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003150839
+0x010344BC@1 0x010344C4@4 0x010344C8@1 0x010344D0@4 Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003150839
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003150856
+Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003150856
+0x010344E0@24 0x8B3654@4 0x010344B0@24 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003150903
+0x010344EC@1 0x010344F4@4 0x010344F8@1 0x01034500@4 Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003150903
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003150946
+Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003150946
+The value is greater than Items.Count! value:(3) ComboBox:(MapChange) current:-1 ParentForm:(MapEditorForm) Count:3
+0x010344EC@12 Write:Tile Changes  (MapChangeForm) @01 20221003151009
+0x01034510@24 0x8B3654@4 0x010344E0@24 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003151020
+0x0103451C@1 0x01034524@4 0x01034528@1 0x01034530@4 Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003151021
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003151158
+Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003151159
+0x01034540@48 0x8B3654@4 Write:Map Editor  (MapEditorForm) =Resize MapChange 0 3 20221003151202
+Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 15a_FixedSkills.gba  20221003151248
+Write:Tile Changes  (MapChangeForm) ClearTileChangePointer 20221003151248
+The value is greater than Items.Count! value:(3) ComboBox:(MapChange) current:-1 ParentForm:(MapEditorForm) Count:3
+Do you include Tile Changes in the content you save?
+If "Yes", it outputs Tile Changes as well.
+If "No", only the current map will be output.
+
+Out of memory n:2,i:231 ,x:21 ,y:7 , index:0 tileAddr:00000000
+Open: D:\Profiles\imc839\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0890@148 0x010342C8@436 0x8B364C@4 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003151301
+0x01034540@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003151302
+0x0103454C@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003151302
