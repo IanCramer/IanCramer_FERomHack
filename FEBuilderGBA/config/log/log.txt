@@ -2123,3 +2123,14 @@ InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928
 0x803E9C@52 Write:Character Editor  (UnitForm) @07 Ross 20221002192831
 InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928.13
 InitSystem: FE7 - Road to Ruin.gba ver: FE7U length: 14A9A18 FEBuilderGBA: 20220928.13
+InitSystem: 15a_FixedSkills.gba ver: FE8U length: 100B79C FEBuilderGBA: 20220928.13
+Open: C:\Users\Owner\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x0100B79C@48 0x8B3654@4 Write:Map Editor  (MapEditorForm) =Resize MapChange 0 3 20221003124042
+0x8B0890@148 0x1B76F4@308 0x8B364C@4 0x8B364C@4 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003124042
+0x0100B79C@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003124044
+0x0100B7A8@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003124044
+0x0100B7B4@12 Write:Map Editor  (MapEditorForm) = The Fall of Renais  20221003124045
