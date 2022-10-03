@@ -1,0 +1,1 @@
+*Warning - for the last 2 maps that have the asterisk, be careful when dealing with them. At the moment, very little info is publicly known regarding these. I've tried tinkering with the Link Arena map, but it seems to have some... hardcoded aspects that you probably won't want to edit. Seriously, be careful--the same goes for the unknown map.

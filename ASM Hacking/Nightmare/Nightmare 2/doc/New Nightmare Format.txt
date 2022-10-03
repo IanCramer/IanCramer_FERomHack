@@ -1,0 +1,46 @@
+Line 1:
+#0x32 bit checksum of file this module is intended for; optional
+Line 2:
+#0x32 bit address of ID string; optional, but the checksum line must at least contain "#0x"
+for this line to be considered the address of the ID string
+Line 3:
+#ASCII ID string expected to be at the address given above of the file this module is intended
+for; while the string comparison is done in the ASCII format, specifying this string should be
+done in Java's unicode format (in other words, to represent ASCII character 0x00, type \u0000)
+Line 4:
+#BASEPOINTER; optional; everything before the semicolon must match what is typed exactly. This
+line enables usage of a base pointer for locating data that may have been reallocated.
+
+The above 4 lines must occur in that order FIRST in the file.
+
+Follow the original Nightmare format up until just after the base address line.
+Assuming you're there, this line should be "#0xhardware offset", and the next line
+should be "#0xBase pointer address". The base pointer address should be the address of a pointer
+pointing to the address the data is at by default. The hardware offset is the address that will
+be subtracted from the value loaded at the base pointer address to convert it to a valid base
+address. If you want to specify a base pointer and not a hardware offset, keep in mind that the
+base pointer line must be exactly the second line encountered after the base address line.
+
+Miscalculating the above values will likely keep the module from loading as the application
+isn't too fond of ArrayIndexOutOfBoundsExceptions occurring when accessing the array of bytes
+representing the open file.
+
+The rest of the file should be formatted similarly to the original Nightmare format, though
+note that you can specify bit offsets and lengths of data in bits by appending "b" onto the end
+of the number entered for these fields.
+
+There is also a new component type called "STRUCT" that is an enhanced version of NEHU that
+can follow pointers. Simply type "STRUCT" where you would type "NEHU" for a component that
+would be a pointer and instead of a path to a list, like for dropdowns, put a path to an
+.nmm file representing the struct where you would normally type "NULL" after "NEHU". Modules
+loaded this way get their own dialogs and have their base address overridden with the value
+held in the NEHU style edit box with the "parent" dialog's hardware offset subtracted, and
+their default and expanded count of entry components will be overridden with "1". As well,
+the module selection, unload, entry selection and expansion controls will not be available at
+the top of the dialog.
+
+The purpose of the format improvements are to minimize accidental editing of the wrong file
+with the wrong module, as well as allowing more control over kooky data types that don't use a
+multiple of 8 bits. As well, the base pointer and hardware offset specification systems aid
+with expanding data automatically (see Automatic Data Expansion.txt) and the new "STRUCT"
+system that I have to say is just awesome.

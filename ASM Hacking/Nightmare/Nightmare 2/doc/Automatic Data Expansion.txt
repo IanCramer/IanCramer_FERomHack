@@ -1,0 +1,12 @@
+This feature only works correctly with files intended for systems that use 32 bit pointers!
+
+Don't click the "Expand" button if the module you have open is, for example, for an old Gameboy
+ROM.
+
+To use this feature, simply click "Expand" (it will be a button under the entry list in the
+module's dialog) (you may not always be able to do this if, for example, if the data is already
+expanded or the default entry count is too large) and the application will copy the original
+array of data the module is for editing, replace the old location with 00s, append 0xFF bytes
+onto the end until the array has the next highest number of entries it can based on the size of
+the index values that access it (256 or 65536; no higher values are supported), write the
+result to the end of the file and update all the pointers to it.

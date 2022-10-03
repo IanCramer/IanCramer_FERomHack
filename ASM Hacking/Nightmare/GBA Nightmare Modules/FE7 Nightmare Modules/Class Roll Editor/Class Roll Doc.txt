@@ -1,0 +1,37 @@
+So essentially the doc I pasted below is incomplete, but... here's my basic understanding of how the class roll works.
+
+- The game has a list of pointers. Under different circumstances, the class roll shows different things--i.e. it doesn't show the same class roll every time. I don't know what the conditions are for each one, but at 0xCE6BDC, you can find an array of pointers for this.
+- Each pointer in THIS array is a pointer to a list of classes to be shown in that particular class roll. ...I think.
+
+It's hard to straight-up explain everything, so I'll just say what I did--for MY custom class roll in a hack I did, I set EVERY pointer at 0xCE6BDC to be the same--thus the Class Roll would be same throughout the whole game. Rather boring, yes, but it worked and it made things easy for me. To make this a little easier to understand, we'll say I pointed it to 0xD9C900 and use this as an example.
+
+At 0xD9C900, I had a SINGLE pointer which pointed to a SINGLE set of classes. There was no reason for me to have different sets of classes if I was just going to have one simple class roll--I could just have one set of classes. So at 0xD9C900, I had a 4 byte pointer to 0xD9C940.
+
+At 0xD9C940, I had ANOTHER set of pointers, this time to each classes individual information. The class module helps you edit these data like a table, but each one is actually pointed to individually, so you have to find the offset for EACH entry and then write it in pointer form, one-by-one, right after another.
+
+Sadly, this is the best I can explain it at the moment. For now, just know that this module will only affect existing class roll entries, and that pretty much everything else is some more complicated stuff that has to be done through a hex editor. ._. Hopefully some better way to do it will come soon.
+
+-----------------
+
+(Below this is my copy/pasted doc just for the sake of sharing it--I used this and then made a module, so now it's mostly redundant. Note that I wasn't as fortunate to have a module when I made my custom class roll, lol.)
+
+0xCE61AC - Some entry near the beginning ?(first entry?)
+0xCE68E0 - Some Table?
+0x421944 - Brigand Text
+
+0xCE62FC - Pointer to Brigand Text - The text is raw, uncompressed text that uses a font alraedy in the game.
+
+Each entry seems to be 0x1C or 28 bytes. 
+
+4 byte pointer to class name's raw text
+4 byte pointer to the class description
+2 bytes of unknown
+1 byte deciding which palette to use (the palette ID used here is the normal ID - 1, thus default 0x00 = 0xFF here)
+1 byte for the class
+1 byte for which generic palette to use
+1 byte for the animation (normal ID - 1)
+1 byte for which spell animation to use (0x00 = none, 0x01 = fire, 0x02 = thunder, 0x03 = heal, 0x04 = lightning)
+8 bytes unknown
+4 byte pointer
+
+0xCE6BDC - Pointer Table of Pointers to Pointers of Classes

@@ -1,0 +1,23 @@
+The name of the INI file should be equal to the string produced by this formula:
+
+String.format("%08X.ini", (int)fileChecksum);
+
+If the file has been modified, use the last 4 bytes of the file for "fileChecksum" instead of
+calculating it.
+
+An example INI name would be the default one for Fire Emblem 7. Fire Emblem 7's unaltered checksum is
+0x2A524221. So, the file name should be "2A524221.ini". "2a524221.ini" won't work.
+
+First line should be "[Basis]" if and only if you don't want the INI to be deleted when a file that
+uses the INI is modified.
+
+All lines after the first line, or including the first line if it isn't "[Basis]" should be full paths
+to the modules to load when files with the checksum the INI is named after are encountered.
+
+Each time a file is opened, the directory is searched for INI files named after that file's checksum.
+If a match is found, that .ini is assumed to be associated with the opened file. If the .ini is not a
+"basis", then when a new .ini is automatically created when saving the file, the old .ini will be
+deleted.
+
+Automatically generated INIs will only have the full paths of the CURRENTLY open modules added to them.
+This means that if you open a module and then close it before saving, it won't be added to the list.

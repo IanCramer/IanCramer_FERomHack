@@ -1,0 +1,5 @@
+N Fix glitch with error displaying (errors are displaying more than once each
+	and can't be displayed using JOptionPane.showMessageDialog for some reason)
+N Extend INI format to account for free space and add a free space manager
+N Add feature for supporting variable length data by allowing specification of
+	termination circumstances

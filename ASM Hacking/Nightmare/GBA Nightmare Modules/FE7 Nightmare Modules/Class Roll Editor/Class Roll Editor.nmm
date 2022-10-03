@@ -1,0 +1,87 @@
+#Class Roll Editor created by Blazer
+
+1
+Class Roll Editor by Blazer
+0xCE61AC
+20
+28
+NULL
+NULL
+
+Raw Text Pointer
+0
+4
+NEHU
+NULL
+
+Class Description Text Pointer
+4
+2
+NEHU
+NULL
+
+Unknown
+8
+1
+NEHU
+NULL
+
+Unknown
+9
+1
+NEHU
+NULL
+
+Character Palette, minus 1 - i.e. Default = 0xFF
+10
+1
+NEHU
+NULL
+
+Class
+11
+1
+NDHU
+Class List.txt
+
+Allegiance Palette
+12
+1
+NDHU
+PaletteOptions.txt
+
+Animation, minus 1
+13
+1
+NEHU
+NULL
+
+Spell Animation
+14
+1
+NDHU
+SpellAnims.txt
+
+Unknown
+15
+1
+NEHU
+NULL
+
+Unknown
+16
+4
+NEHU
+NULL
+
+Unknown
+20
+4
+NEHU
+NULL
+
+Attack Pattern Pointer?
+24
+4
+NEHU
+NULL

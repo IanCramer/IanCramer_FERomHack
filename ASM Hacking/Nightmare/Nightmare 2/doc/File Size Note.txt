@@ -1,0 +1,5 @@
+Files that aren't require to be a multiple of 4 bytes in length might not work appropriately
+as Nightmare 2.0 pads the files with 00 bytes until they are before doing any checksum calculation,
+as well as ensuring this requirement is met for working with the file in general.
+
+The bitmap example has been pre-padded appropriately to accommodate this.

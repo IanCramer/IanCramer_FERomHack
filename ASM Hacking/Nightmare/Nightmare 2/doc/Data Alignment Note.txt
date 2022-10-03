@@ -1,0 +1,3 @@
+This application doesn't play nice with misaligned data (e.g. data that is 4 bytes in length but
+at an address the value of which isn't a multiple of 4, etc.). As such, the bitmap example
+has been extremely limited (read: all invalid lines have been commented out).

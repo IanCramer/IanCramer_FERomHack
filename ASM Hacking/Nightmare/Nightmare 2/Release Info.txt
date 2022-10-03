@@ -1,0 +1,149 @@
+Nightmare 2.0 by Hextator ;D
+
+Format of the info below is
+
+Version
+	Ammendment notes
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ (Day separator)
+
+Version format is (date) YYYYMMDD
+
+Because of this lazy version format, releases that occur on days when a release has already happened will be overlooked.
+
+Be sure to wait until the end of the day before downloading if you're worried about missing a bugfix.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20111217
+	Humongous threading bug fixed
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100601
+	Documentation updated in general.
+	Error output isn't working properly and has been redirected to the standard output;
+		you will need to view errors on a console and invoke the application such that console output can be seen.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100531
+	"/doc/TODO.txt" added. This file contains information on bugs and/or feature requests that were intended to be tended to.
+		Developers avidly trying to make use of, reinvision or help with this project should take note.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100116
+	Bugfix in NEDU controls whose access types were bit width (as opposed to byte, short or int)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100115
+	Modified ModulePane class to select the first entry of a module by default if there is only one
+	Added feature to draw lines between labels and components in module frames when the mouse is moved between them for easy distinction of which label belongs to which component
+	Added support to spinners for over and underflows wrapping around to minimum and maximum values, respectively
+	Bugfixes related to expansion
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100110
+	More refactoring; small additions (for example, extra info in tooltips)
+	Code actually looks like it was written by someone with sanity now
+	Small bugfixes and removals of annoying dialogs
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20100109
+	Massive refactoring
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090405
+	General improvements
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090404
+	"STRUCT" "Edit" buttons made to have consistent size
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090403
+	Quick sort finally debugged
+	True cause of speed issue with loading modules with text tables addressed
+	Minor improvements
+	"STRUCT" support
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090402
+	Code cleaning
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090401
+	Address display removed from label names to be part of the labels' tooltips
+		(mouse over to view)
+	Note: Progress today is not a joke. Progress about FEditor Adv, however, may have been ;D
+	Quick sort adapted to text table encoding entries
+	Module display system reformed to use one dialog with a dropdown to choose between "open" modules (there's actually only one "open" at a time, really, but this saves memory which actually makes the application run faster in spite of having to reprocess modules each time they're switched to)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090330
+	"Expand" feature added
+	Minor improvements
+	INI system added
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090329
+	Bit access bugfixes
+	Access type calculation bugfixes
+	Base pointer support modified to allow specification of hardware offset
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090328
+	Implementation of all component systems from original Nightmare completed
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090327
+	Bit array reading and writing code completed
+	NEHU, NEDS and NEDU controls completed (can only utilize 1 through 32 bits)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090326
+	Improved error reporting system
+	Entry component label generation code complete
+	Dialog accessibility code complete
+	Translating and encoding of strings now possible using a text table
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090325
+	Finalizing of main GUI
+	All code for reading original .nmm files completed
+	Expansion recognition, checksum, base pointer and ID string support implemented
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090324
+	Buttons on main GUI finally given some purpose so that debugging can begin
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+20090306
+	First build; basic GUI skeleton
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Known issues:
+
+--	None at the moment
+
+Planned/suggested features (in order):
+
+--	None at the moment

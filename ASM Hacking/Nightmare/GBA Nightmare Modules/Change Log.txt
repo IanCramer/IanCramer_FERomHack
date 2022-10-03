@@ -1,0 +1,37 @@
+Following Module Changes as of:
+
+September 16th, 2012:
+
+- Removed two modules; an outdated duplicate version of the Spell Association Editor and a duplicate of the CG Editor
+- Updated the Battle BG Array Editor with a complete list of backgrounds
+- Updated the Chapter Data Editor to include all chapters in the game (including special maps)
+- Updated the Event Reference Table Editor to include all chapters in the game (including special maps)
+- Updated the Character Editor to use unsigned growth values
+- Updated the Class Editor to use unsigned growth values
+- Removed the pretty much pointless "Documentation" folder
+- Made some minor yet helpful tweaks to the following modules:
+
+	- Item Editor
+	- Stat Bonuses Editor (now the "Custom Stat Bonuses Editor")
+	- Standing Map Sprite Editor
+	- Miscellaneous Map Sprite Editor
+	- Death Quote Editor Part 1 (now Part 1-2; the new README explains this a bit)
+	- Death Quote Editor Part 3 (see note above)
+	- Specified Battle Conversation Editor
+	- Unspecified Battle Conversation Editor
+
+I didn't update any of the modules to reflect the new version # or the fact that I updated them but if you're seeing this then they should be updated.
+
+June 18th, 2012:
+
+- Fixed the Spell Association Editor
+
+May 30th, 2012:
+
+- Added FE6 Map Sprite Editors (Blazer)
+
+August 10th, 2011:
+
+- Added FE7 Battle Platform Array Editor (Blazer)
+- Updated FE7 Item List (Blazer)
+- Added FE7 Dialog Background Editor (Blazer)

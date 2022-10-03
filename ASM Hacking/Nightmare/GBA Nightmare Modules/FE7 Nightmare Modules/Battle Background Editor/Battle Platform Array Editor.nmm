@@ -1,0 +1,25 @@
+1
+FE 7 Battle Platform Array Editor by Blazer
+0xFC0008
+106
+24
+NULL
+NULL
+
+Header
+0
+12
+TEXT
+NULL
+
+Graphics Pointer
+12
+4
+NEHU
+NULL
+
+Palette Pointer
+16
+4
+NEHU
+NULL

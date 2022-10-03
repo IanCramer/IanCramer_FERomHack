@@ -1,0 +1,81 @@
+#0x32D52EAE
+#0x00000000
+#BM
+
+
+#This program does not properly handle misaligned data, so misaligned entries
+#will be commented out
+
+1
+Bitmap header editor
+0x00000000
+1
+54
+NULL
+NULL
+
+File identifier (should be "BM!")
+0
+2
+TEXT
+NULL
+
+#File size
+#2
+#4
+#NEHU
+#NULL
+
+#Image data address (should be 54/0x36!)
+#10
+#4
+#NEHU
+#NULL
+
+#DIB Header size
+#14
+#4
+#NEHU
+#NULL
+
+#Bitmap width (pixels)
+#18
+#4
+#NEDS
+#NULL
+
+#Bitmap height (pixels)
+#22
+#4
+#NEDS
+#NULL
+
+#Color plane count (should be 1!)
+#26
+#2
+#NEDS
+#NULL
+
+Bits per pixel (should be 24!)
+28
+2
+NEDU
+NULL
+
+#Compression (should be 0 for "none"!)
+#30
+#4
+#NEDU
+#NULL
+
+#Image size (not file size; size of image at address 54/0x36)
+#34
+#4
+#NEHU
+#NULL
+
+#Colors in palette (should be 0 to default to "2^bits per pixel"!)
+#46
+#4
+#NEDU
+#NULL

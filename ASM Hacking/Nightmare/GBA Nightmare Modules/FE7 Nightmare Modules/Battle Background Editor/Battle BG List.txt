@@ -1,0 +1,60 @@
+0x01 - Village
+0x02 - Castle Hallway (Grey)
+0x03 - Plains (Normal)
+0x04 - Plains with River and Hills
+0x05 - Riverside with Sky
+0x06 - Grass with Rocks and Mountains
+0x07 - Mountains (Brown)
+0x08 - Desert
+0x09 - Mountains (Different, Grey)
+0x0A - Cave
+0x0B - Gate (Normal)
+0x0C - Thick Forest
+0x0D - Ocean
+0x0E - Throne Room Red
+0x0F - Hallway (Purple)
+0x10 - Volcano Platform Area
+0x11 - Snowy Village
+0x12 - Snowy Plains
+0x13 - Snowy Plains with River and Hills
+0x14 - Snowy Riverside with Sky
+0x15 - Snowy Grass with Rocks and Mountains
+0x16 - Snowy Mountains
+0x17 - Snowy Gate
+0x18 - Snowy Thick Forest
+0x19 - Castle Hallway (Golden)
+0x1A - Throne Room Red/Gold
+0x1B - Darker Thick Forest
+0x1C - Darker Forest
+0x1D - Sunset Thick Forest
+0x1E - Sunset Forest
+0x1F - Darker Thick Forest again
+0x20 - Normal Forest
+0x21 - Brown Dragon's Gate Hallway?
+0x22 - Destroyed Village
+0x23 - Destroyed Village, Night
+0x24 - Plains (Dark)
+0x25 - Plains (Normal)
+0x26 - Plains (Darker)
+0x27 - Plains (Sunset)
+0x28 - Village, Night
+0x29 - Castle Hallway (Grey)
+0x2A - Castle Hallway (Night)
+0x2B - Throne Room (Teal)
+0x2C - Throne Room (Red, Darker)
+0x2D - Ocean, Night
+0x2E - Red Carpet Hallway
+0x2F - Hallway (Brown)
+0x30 - Same as above, but with a hole/opening in the middle
+0x31 - Plains with River and Hills, again
+0x32 - Plains with River and Hills, Darker
+0x33 - Plains with River and Hills, Sunset
+0x34 - Grassy Area with Mountains and Forests
+0x35 - Plains with Some Hills
+0x36 - Grass with Rocks and Mountains, Darker
+0x37 - Gate (Darker)
+0x38 - Village, again
+0x39 - Village, again
+0x3A - Can't get enough of those villages
+0x3B - One last village
+0x3C - Shrine (used in promotion scenes)
