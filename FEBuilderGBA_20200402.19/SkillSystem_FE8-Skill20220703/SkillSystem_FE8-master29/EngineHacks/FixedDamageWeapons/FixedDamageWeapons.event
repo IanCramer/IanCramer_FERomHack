@@ -1,6 +1,0 @@
-#define ENABLE_FixedDamageWeapons
-#include "FixedDamageWeapons.lyn.event"
-
-ALIGN 4
-FixedDamageWeaponList:
-BYTE 0x00
