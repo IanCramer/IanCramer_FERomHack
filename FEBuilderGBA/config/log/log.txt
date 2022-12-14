@@ -1350,3 +1350,41 @@ Are you sure you want to overwrite with clipboard data?
 0x0100D264@1288 Write:Event Editor (Adv)  (EventScriptForm) =:0100D264  20221010101027
 0x0100D264@1288 Write:Event Editor (Adv)  (EventScriptForm) =:0100D264  20221010101312
 0x8B39EC@4 Write:World Map Events  (WorldMapEventPointerForm) @00  20221010101442
+Can not access the website. URL: https://api.github.com/repos/FEBuilderGBA/FEBuilderGBA/releases/latest Message: System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at FEBuilderGBA.U.HttpGet(String url, String referer, CookieContainer cookie)
+   at FEBuilderGBA.UpdateCheck.CheckUpdateURLByGitHub(String& out_url, String& out_version).
+InitSystem: Dragonstone.gba ver: FE8U length: 1047F98 FEBuilderGBA: 20221008.01
+Are you sure you want to move 0E Manakete to the position of 0D Thief?
+0x01047EDC@4 Write:Battle Animations  (ImageBattleAnimeForm) @CD - 20221011081132
+Already running (emulator) process.
+It will be double execution, are you sure you want to continue? 
+0x01047ED8@4 Write:Battle Animations  (ImageBattleAnimeForm) @CD Dragonstone 20221011091826
+0x01047EDC@4 Write:Battle Animations  (ImageBattleAnimeForm) @CD Fire Stone 20221011091830
+Are you sure you want to move 03 Gilliam to the position of FF Snag?
+0x01047EDC@4 Write:Battle Animations  (ImageBattleAnimeForm) @CC Fire Stone 20221011132609
+InitSystem: 19_AdjustedEXP.gba ver: FE8U length: 100B79C FEBuilderGBA: 20221008.01
+Could not locate MAPTASK Procs.
+Are you in a chapter? 
+You must be playing a chapter to use this feature.
+You already have a Direct Injection hook, so activate the emulator once to complete the process, then try again.
+You already have a Direct Injection hook, so activate the emulator once to complete the process, then try again.
+You already have a Direct Injection hook, so activate the emulator once to complete the process, then try again.
+You already have a Direct Injection hook, so activate the emulator once to complete the process, then try again.
+0x0100B79C@4 0xB2F3E0@4 0x0100B72C@4 Write:Move to extended area  (MoveToFreeSapceForm) =Move to extended area 19_AdjustedEXP.gba  20221213201842
+0xB2F3E0@4 Write:Assign Skill by Class  (SkillAssignmentClassSkillSystemForm) AssignLevelUpBase 20221213201842
+0x0100B7A0@2 Write:Assign Skill by Class  (SkillAssignmentClassSkillSystemForm) @28 Axefaire 20221213202149
+0x0100B7A0@2 Write:Assign Skill by Class  (SkillAssignmentClassSkillSystemForm) @1E CertainBlow 20221213202208
+0x0100B7A2@2 Write:Assign Skill by Class  (SkillAssignmentClassSkillSystemForm) @28 Axefaire 20221213202257
+0x0100B7A2@2 Write:Assign Skill by Class  (SkillAssignmentClassSkillSystemForm) @6E Quickdraw 20221213202305
+Changes not saved. Discard and load new map?
+Changes not saved. Discard and load new map?
+Open: C:\Users\Owner\Desktop\IanCramer_FERomHack\Maps\Castle_Selegra2.tmx
+Are you sure to import including Tile Changes?
+
+If "yes", load all maps and Tile Changes both with those specified in TMX.
+If "No", only the main map will be loaded.
+0x8B0DC4@148 0x1B6480@664 0x8B36DC@4 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
+0xA1E450@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
+0xA1E45C@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
+0xA1E42E@2 0xA1E470@4 0xA1E468@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
