@@ -6,3 +6,7 @@
 
 FEBuilderGBA/app
 FEBuilderGBA/config/config.xml
+
+
+# Don't track save files
+*.sav
