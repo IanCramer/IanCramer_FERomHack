@@ -1388,3 +1388,6 @@ If "No", only the main map will be loaded.
 0xA1E450@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
 0xA1E45C@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
 0xA1E42E@2 0xA1E470@4 0xA1E468@12 Write:Map Editor  (MapEditorForm) =Ch8 It's a Trap!  20221213210139
+Your data changes in this form haven't been written to the ROM. Close anyway?
+InitSystem: 19_AdjustedEXP.gba ver: FE8U length: 100B79C FEBuilderGBA: 20221008.01
+InitSystem: 1.gba ver: FE8U length: 100D76C FEBuilderGBA: 20221008.01
